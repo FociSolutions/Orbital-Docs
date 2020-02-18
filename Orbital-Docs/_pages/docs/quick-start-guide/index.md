@@ -8,7 +8,7 @@ sidebar:
 
 This quick start guide will show you how to make a simple petstore which returns a pet by name. If no pets are found, it will return a custom message.
 
-1. Follow the installation instructions to start up the designer and server
+1. Follow the [installation instructions](/docs/installation/) to start up the designer and server
 2. Navigate to [http://localhost:4200](http://localhost:4200) in your browser
 3. Download a sample OpenAPI v2.0 file (for example, [petstore.json](https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/examples/v2.0/json/petstore.json)
 4. Click &quot;Create new Mock&quot;
