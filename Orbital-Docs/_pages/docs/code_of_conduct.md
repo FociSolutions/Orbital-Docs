@@ -3,7 +3,7 @@ layout: single
 title: Code of Conduct
 permalink: /docs/code-of-coduct/
 sidebar:
-  nav: "docs"
+  nav: 'docs'
 ---
 
 # Contributor Covenant Code of Conduct

@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "About Us"
-    url: "/about"
+  - title: 'About Us'
+    url: '/about'
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -14,13 +14,13 @@ main:
 docs:
   - title: Getting Started
     children:
-      - title: "Quick-Start Guide"
+      - title: 'Quick-Start Guide'
         url: /docs/quick-start-guide/
-      - title: "Structure"
+      - title: 'Structure'
         url: /docs/structure/
-      - title: "Installation"
+      - title: 'Installation'
         url: /docs/installation/
-      - title: "Upgrading"
+      - title: 'Upgrading'
         url: /docs/upgrading/
-      - title: "Code of Conduct"
+      - title: 'Code of Conduct'
         url: /docs/code-of-coduct/
