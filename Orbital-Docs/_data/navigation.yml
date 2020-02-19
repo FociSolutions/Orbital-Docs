@@ -3,7 +3,7 @@ main:
   - title: 'About Us'
     url: '/about'
   - title: 'Documentation'
-    url: '/documentation'
+    url: '/docs/quick-start-guide/'
   - title: 'Git'
     url: 'https://github.com/FociSolutions/Orbital'
   # - title: "About"
