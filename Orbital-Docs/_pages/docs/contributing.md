@@ -10,7 +10,7 @@ Welcome! We're excited to have contributors like you interested in supporting Or
 
 ## Getting Started
 
-If you haven't already, you should check out our [Getting Started](/docs/installation/) section. That's where you'll find our installation guide and an overview of the project.
+If you haven't already, you should check out our [Quick-Start Guide](/docs/quick-start-guide/) section. That's where you'll find our installation guide and an overview of the project.
 
 You should also take a moment to look at our [Code of Conduct](/docs/code-of-coduct/).
 
