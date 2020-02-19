@@ -25,19 +25,22 @@ baseurl: '' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: FociSolutions
-minimal_mistakes_skin: 'dark'
+minimal_mistakes_skin: 'contrast'
 search: true
 footer:
   links:
     - label: 'GitHub'
       icon: fab fa-fw fa-github
-      url: 'https://github.com/mmistakes'
+      url: 'https://github.com/FociSolutions/Orbital'
+    - label: 'Contribute'
+      url: 'https://github.com/FociSolutions/Orbital'
+    - label: 'Contact Us'
+      url: 'https://github.com/FociSolutions/Orbital'
 
 # Build settings
 theme: minimal-mistakes-jekyll
 plugins:
 #  - jekyll-feed
-
 include: ['_pages']
 # Exclude from processing.
 # The following items will not be processed, by default.

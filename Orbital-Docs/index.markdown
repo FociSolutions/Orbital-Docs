@@ -6,5 +6,3 @@ layout: splash
 sidebar:
   nav: 'docs'
 ---
-
-<h1>Orbital is great</h1>
