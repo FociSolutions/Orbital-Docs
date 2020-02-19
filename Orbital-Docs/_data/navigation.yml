@@ -24,3 +24,5 @@ docs:
         url: /docs/upgrading/
       - title: 'Code of Conduct'
         url: /docs/code-of-coduct/
+      - title: 'License'
+        url: /docs/license/
