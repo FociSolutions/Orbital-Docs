@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/planets.jpg
   actions:
     - label: "Get Started"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
+      url: "docs/quick-start-guide/"
   caption: ""
 excerpt: "Orbital is an HTTP mocking framework that enables teams to achieve rapid software development and testing"
 intro:
@@ -28,7 +28,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path:
-    title: "Orbital Server"
+    title: "Server"
     excerpt: "Orbital's modular pipeline architecture allows for easy development, request matching, and debugging"
     url: "#test-link"
     btn_label: "Read More"
