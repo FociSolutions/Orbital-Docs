@@ -30,7 +30,7 @@ Install [Docker Compose](https://docs.docker.com/compose/install/)
 
 `docker-compose up -d`
 
-The mock definition designer will be running on `http://localhost:4200`, and the server on `http://localhost:5001`.
+The mock definition designer will be running on `http://localhost:4200`, and the server on `http://localhost:5000`.
 
 # Build From the source
 
