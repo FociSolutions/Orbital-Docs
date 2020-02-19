@@ -33,7 +33,7 @@ footer:
       icon: fab fa-fw fa-github
       url: 'https://github.com/FociSolutions/Orbital'
     - label: 'Contribute'
-      url: 'https://github.com/FociSolutions/Orbital'
+      url: '/docs/contribute'
     - label: 'Contact Us'
       url: 'https://github.com/FociSolutions/Orbital'
 
