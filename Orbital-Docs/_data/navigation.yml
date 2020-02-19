@@ -22,3 +22,5 @@ docs:
         url: /docs/installation/
       - title: 'Upgrading'
         url: /docs/upgrading/
+      - title: 'Code of Conduct'
+        url: /docs/code-of-coduct/
