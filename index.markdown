@@ -5,7 +5,7 @@ permalink: /
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
-  overlay_filter: "0.3"
+  overlay_filter: "0.5"
   overlay_image: /assets/images/planets.jpg
   actions:
     - label: "Get Started"
@@ -16,33 +16,20 @@ intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
   - image_path:
-    alt: "placeholder image 1"
     title: "Request Matching Rules"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path:
-    image_caption:
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "Incorporating highly flexible and customizable request matching rules, virtually any kind of request can be matched"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path:
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-feature_row2:
-  - image_path:
-    alt: "Flexible Deployment"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    title: "Flexible Deployment"
+    excerpt: "Built with Docker and .NET Core, Orbital can be deployed anywhere Docker is supported, including Windows, Linux, and macOS"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row3:
   - image_path:
-    alt: "Orbital Server"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+    title: "Orbital Server"
+    excerpt: "Orbital's modular pipeline architecture allows for easy development, request matching, and debugging"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
