@@ -38,8 +38,16 @@ footer:
       url: 'https://github.com/FociSolutions/Orbital'
 
 # Build settings
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 #  - jekyll-feed
 include: ['_pages']
 # Exclude from processing.
