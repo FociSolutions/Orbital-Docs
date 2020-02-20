@@ -55,6 +55,10 @@ Think about creating a folder for a component when it has multiple accompanying 
 
 - Do not create formatted blocks of asterisks around comments. We find this to be a waste of space and time.
 
-## Language Guidelines
-
 ## Coding Style
+
+Everyone has hers or his own coding style, and everyone thinks theirs is best. Going back to our guiding principle, we can all agree that it is most important to be consistent in the style throughout a project. Here are some notes to help keep you in step with the style of Orbital:
+
+- Avoid using abbreviations. We try to only use them when they are common and part of a longer name (i.e. `ConfigService`).
+- Our tab and indention size is four.
+- Declare each variable independently. Never in the same statement.

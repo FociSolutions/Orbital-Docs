@@ -6,7 +6,7 @@ sidebar:
   nav: 'docs'
 ---
 
-#Orbital Style Guide
+# Orbital Server Style Guide
 
 Much of our style guide pulls directly from Microsoft's [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/articles/csharp/programming-guide/inside-a-program/coding-conventions#Anchor_3). When in doubt, their documentation is a good place to look.
 
@@ -141,12 +141,12 @@ Everyone has hers or his own coding style, and everyone thinks theirs is best. G
 - Place namespace `using` statements together at the top of file. Group .NET namespaces above custom namespaces.
 - Keep lambda statements tidy. If they have more than two `.`,then indent and use multiple lines. Avoid nested lambdas if possible.
 - Group internal `class` implementation by type in the following order:
-  1.      Member variables.
-  2.      Constructors & Finalizers.
-  3.      Nested Enums, Structs, and Classes.
-  4.      Properties
-  5.      Methods
-  6.      Sequence declarations within type groups based upon access modifier and visibility:
+  1.       Member variables.
+  2.       Constructors & Finalizers.
+  3.       Nested Enums, Structs, and Classes.
+  4.       Properties
+  5.       Methods
+  6.       Sequence declarations within type groups based upon access modifier and visibility:
   - Public
   - Protected
   - Internal
