@@ -12,8 +12,6 @@ header:
       url: "docs/quick-start-guide/"
   caption: ""
 excerpt: "Orbital is an HTTP mocking framework that enables teams to achieve rapid software development and testing"
-intro:
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
   - image_path:
     title: "Request Matching Rules"
