@@ -27,8 +27,14 @@ docs:
       - title: 'Upgrading'
         url: /docs/upgrading/
   - title: 'Code of Conduct'
-    url: /docs/code-of-coduct/
+    url: /docs/code-of-conduct/
   - title: 'License'
     url: /docs/license/
   - title: 'Contributing'
     url: /docs/contributing/
+  - title: 'Style Guide'
+    children:
+      - title: 'Orbital Designer'
+        url: /docs/designer_style_guide/
+      - title: 'Orbital Server'
+        url: /docs/server_style_guide/
