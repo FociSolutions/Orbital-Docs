@@ -24,24 +24,24 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 title: ""
 github_username: FociSolutions
-minimal_mistakes_skin: "contrast"
+minimal_mistakes_skin: 'contrast'
 search: true
 logo: /assets/images/logo.png
 footer:
   links:
-    - label: "GitHub"
+    - label: 'GitHub'
       icon: fab fa-fw fa-github
-      url: "https://github.com/FociSolutions/Orbital"
-    - label: "Contribute"
-      url: "/docs/contribute"
-    - label: "Contact Us"
-      url: "https://github.com/FociSolutions/Orbital"
+      url: 'https://github.com/FociSolutions/Orbital'
+    - label: 'Contribute'
+      url: '/docs/contribute'
+    - label: 'Contact Us'
+      url: 'https://github.com/FociSolutions/Orbital'
 
 # Build settings
 theme: minimal-mistakes-jekyll
 plugins:
 #  - jekyll-feed
-include: ["_pages"]
+include: ['_pages']
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
