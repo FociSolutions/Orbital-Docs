@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/planets.jpg
   actions:
     - label: "Get Started"
-      url: "docs/quick-start-guide/"
+      url: "docs/quick-start-guide"
   caption: ""
 excerpt: "Orbital is an HTTP mocking framework that enables teams to achieve rapid software development and testing"
 feature_row:

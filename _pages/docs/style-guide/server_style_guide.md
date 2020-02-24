@@ -6,11 +6,10 @@ sidebar:
   nav: 'docs'
 ---
 
-# Orbital Server Style Guide
-
 Much of our style guide pulls directly from Microsoft's [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/articles/csharp/programming-guide/inside-a-program/coding-conventions#Anchor_3). When in doubt, their documentation is a good place to look.
 
-##Guiding Principle: Consistency is king.
+## Guiding Principle: Consistency is king.
+
 While we try hard to adhere to our style guide, sometimes conventions work their way into the code and just start getting used across the board. As such, we think it is most important that the code is consistent in its construction. If there is something in this style guide that is being ignored throughout the code, please follow the convention already in place. If you see something that doesn't adhere to either this guide or the code, please change it to follow the lead of the rest of the code. We're counting on everyone working together to keep our code as readable as possible.
 
 ## Naming Conventions
