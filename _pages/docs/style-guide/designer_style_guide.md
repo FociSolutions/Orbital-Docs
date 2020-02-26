@@ -3,14 +3,14 @@ layout: single
 title: Orbital Designer Style Guide
 permalink: /docs/designer_style_guide/
 sidebar:
-  nav: 'docs'
+  nav: "docs"
 ---
 
-Much of our style guide pulls directly from [Angulars Style Guide](https://angular.io/guide/styleguide). When in doubt , their documentation is a good place to look.
+Much of our style guide pulls directly from [Angular's Style Guide](https://angular.io/guide/styleguide). When in doubt, their documentation is a good place to look.
 
-## Guiding Principle: Consistency is kind.
+## Guiding Principle: Consistency is king.
 
-While we try hard to adhere to our style guide. sometimes conventions work their way into the code and just start getting used across the board. As such, we think it is most important that the code is consistent in its construction. if there is something in this style guide that is something that doesn't adhere to either this guide or the code, please change it to follow the lead of the rest of the code. We're counting on everyone working together to keep our code as readable as possible.
+While we try hard to adhere to our style guide, sometimes conventions work their way into the code and just start getting used across the board. As such, we think it is most important that the code is consistent in its construction. If there is something in this style guide that is something that doesn't adhere to either this guide or the code, please change it to follow the lead of the rest of the code. We're counting on everyone working together to keep our code as readable as possible.
 
 ## Naming Convention
 
@@ -25,10 +25,10 @@ All content is one asset per file. Each component, service, and pipe is in its o
 LIFT
 Structure the app such that you can _Locate_ code quickly, _Identify_ the code at a glance, keep the _Flattest_ structure you can, and _Try_ to be DRY (Don't Repeat Yourself).
 This will provide a consistent structure that scales well, is modular, and makes it easier to increase developer efficiency by finding code quickly.
-Being DRY is important, but not crucial if it sacrifices the other elements of LIFT
+Being DRY is important, but not crucial if it sacrifices the other elements of LIFT.
 
 Some overall structural guidelines include: starting small and try to manage a road map of the direction of the project. Make sure all code is in the `src` folder.
-Think about creating a folder for a component when it has multiple accompanying files. This helps keep the app atructure small and easy to maintain in the initial stages of development, while being easy to evolve as the app grows.
+Think about creating a folder for a component when it has multiple accompanying files. This helps keep the app structure small and easy to maintain in the initial stages of development, while being easy to evolve as the app grows.
 
 ## Commenting Conventions
 
