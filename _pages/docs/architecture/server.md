@@ -91,7 +91,14 @@ Orbital does not implement 100% of the OpenAPI spec. Additionally, there are som
 
 ### How to determine which response is returned when multiple scenarios match an endpoint
 
--   All scenarios which match the body, query, URL, and/or header(s) are put into a single list (preserving duplicates.) For example, assume there is request “A” that has a query of “q=1” and a header of “Content-Type=text/plain”, there is a scenario “B” that matches “q=1” and a scenario “C” which matches “Content-Type=text/plain” for the headers, and scenario “D” which matches “q=1” and “Content-Type=text/plain” and all scenarios are part of the same endpoint. Then, both scenarios B, C, and D would be added to the lists; the header list would have C and D, the query list would have B, C, and D, etc.
+-   All scenarios which match the body, query, URL, and/or header(s) are put into a single list (preserving duplicates.) For example:
+	-   request “A” has a query of “q=1” and a header of “Content-Type=text/plain”
+	-   scenario “B” that matches the query “q=1”
+	-   scenario “C” which matches “Content-Type=text/plain” for the headers
+	-   scenario “D” which matches “q=1” and “Content-Type=text/plain”
+	-   all scenarios are part of the same endpoint
+	
+	Then, both scenarios B, C, and D would be added to the lists; the header list would have C and D, the query list would have B, C, and D, etc.
 
 -   The scenarios are grouped by their id (each group is now a list of scenarios, which contains the body, query, URL, and header match results.) Each one of these types (body, query, URL, and header) can be a successful match (matched exactly), failure match (did not match), or ignore match (user did not specify any rules.)
 
