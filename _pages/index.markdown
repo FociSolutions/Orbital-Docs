@@ -28,7 +28,7 @@ feature_row:
   - image_path:
     title: "Server"
     excerpt: "Orbital's modular pipeline architecture allows for easy development, request matching, and debugging"
-    url: "#TBD"
+    url: "docs/architecture/server"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
