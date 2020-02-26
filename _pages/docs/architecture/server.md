@@ -17,7 +17,7 @@ Figure 1. High-level architecture diagram of the server.
 
 ### How it works
 
-#### Sample message flow
+### Sample message flow
 
 -   The user requests “[*http://localhost:5000/pets/sammy*](http://localhost:5000/pets/sammy)”
 
@@ -27,7 +27,7 @@ Figure 1. High-level architecture diagram of the server.
 
 -   From there, see the section *Matching an endpoint/scenario* for more information regarding how a request is matched
 
-#### Matching an endpoint/scenario
+### Matching an endpoint/scenario
 
 For each endpoint, there are a list of scenarios. In each scenario, there are a list of rules that determine when the request is matched.
 
@@ -53,7 +53,7 @@ These are the rules which determine when a scenario or endpoint is matched:
 
         1.  See section *How the response selector works*
 
-#### How parameterized endpoints are matched
+### How parameterized endpoints are matched
 
 Orbital does not implement 100% of the OpenAPI spec. Additionally, there are some modifications to the default behavior of how endpoints match which are different than how the OpenAPI spec suggests. These differences are described as follows:
 
@@ -89,7 +89,7 @@ Orbital does not implement 100% of the OpenAPI spec. Additionally, there are som
 
     -   Paths such as /test//test is the same as /test/test (n or more slashes are compacted into one when parsing the query)
 
-#### How to determine which response is returned when multiple scenarios match an endpoint
+### How to determine which response is returned when multiple scenarios match an endpoint
 
 -   All scenarios which match the body, query, URL, and/or header(s) are put into a single list (preserving duplicates.) For example, assume there is request “A” that has a query of “q=1” and a header of “Content-Type=text/plain”, there is a scenario “B” that matches “q=1” and a scenario “C” which matches “Content-Type=text/plain” for the headers, and scenario “D” which matches “q=1” and “Content-Type=text/plain” and all scenarios are part of the same endpoint. Then, both scenarios B, C, and D would be added to the lists; the header list would have C and D, the query list would have B, C, and D, etc.
 
@@ -105,7 +105,7 @@ Orbital does not implement 100% of the OpenAPI spec. Additionally, there are som
 
 -   If a group contains a match failure (i.e. a scenario failed to match on the body, query, URL, or header) then the scenario will be discarded from the potential candidates to be returned to the user, except for headers. Headers are treated individually, which means that they are not part of the match group and so if one does not match that does not mean that the entire scenario is discarded. If the user did not specify a rule for the body, then the match type will be “ignore” and thus not failure and will not be discarded from the group.
 
-#### How the response selector works
+### How the response selector works
 
 1.  If there is **only one scenario, and that scenario matches the request**, it will be returned.
 
@@ -147,7 +147,7 @@ Orbital does not implement 100% of the OpenAPI spec. Additionally, there are som
 
             3.  Return the response to the user
 
-#### How are URL rules matched?
+### How are URL rules matched?
 
 -   Match everything after the host name. For example, [*http://localhost**/sammy/pets***](http://localhost/sammy/pets)**,** including the leading /
 
@@ -159,7 +159,7 @@ Orbital does not implement 100% of the OpenAPI spec. Additionally, there are som
 
 -   Regexes do not have a time limit; be careful when constructing the regexes. It is possible to hang the server if the regex is too complicated or the request input is very long.
 
-#### Which Mockdefinition is matched?
+### Which Mockdefinition is matched?
 
 The title of the Mockdefinition that was least recently uploaded will take precedence; this means that if B was uploaded before A, and if B contains a matching endpoint, then A won’t be considered (or any others after it.)
 
@@ -179,6 +179,6 @@ Here are some examples (A, B, and C are identical mockdefinitions except the res
 
 -   If only A is uploaded, then A’s endpoint matches
 
-#### Definitions
+### Definitions
 
 **Equality URL Rules:** /test/, test/, //test//test, /test all match the /test endpoint. The URL is matched via splitting the slashes and removing the empty entries, then recombining the URL.
