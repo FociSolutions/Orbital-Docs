@@ -39,7 +39,7 @@ These are the rules which determine when a scenario or endpoint is matched:
 
 2.  The client’s request (URL and method type) are matched against a list of endpoints. These endpoints are part of the server’s Mockdefinition, which the user has uploaded. See the *Which Mockdefinition is matched?* section for more information. The Equality URL Rules apply (except for a URL matching rule, which matches it exactly.) The method type must match exactly in order for the endpoints’ scenarios to consider matching (for example a GET request.) Additionally, the following rules apply depending on the endpoint type:
 
-    1.  If the endpoint is parameterized, see section *How parameterized endpoints are matched* for more information. If the endpoint is not parameterized, then it will be matched according to the Equality URL Rules definition.
+    1.  If the endpoint is parameterized, see section [How parameterized endpoints are matched](#how-parameterized-endpoints-are-matched) for more information. If the endpoint is not parameterized, then it will be matched according to the Equality URL Rules definition.
 
     2.  Depending on how many endpoints match from the previous step:
 
@@ -51,7 +51,7 @@ These are the rules which determine when a scenario or endpoint is matched:
 
     3.  From this collection of returned endpoints:
 
-        1.  See section *How the response selector works*
+        1.  See section [How the response selector works](#how-the-response-selector-works)
 
 ### How parameterized endpoints are matched
 
@@ -101,7 +101,7 @@ Orbital does not implement 100% of the OpenAPI spec. Additionally, there are som
 
     3.  Multiple bodies can be matched in the request only if one of the match types is not textual equals or JSON equals, and there is at least one type. Warning: if the body match type is JSON equals, then the structure can only be nested up to C\#’s stack limit ([*14250*](https://rosettacode.org/wiki/Find_limit_of_recursion#C.23).) Otherwise, it will throw an error and could crash the server.
 
-    4.  To see when URL rules are matched, see section *How are URL rules matched?*
+    4.  To see when URL rules are matched, see section [How are URL rules matched?](#how-are-url-rules-matched)
 
 -   If a group contains a match failure (i.e. a scenario failed to match on the body, query, URL, or header) then the scenario will be discarded from the potential candidates to be returned to the user, except for headers. Headers are treated individually, which means that they are not part of the match group and so if one does not match that does not mean that the entire scenario is discarded. If the user did not specify a rule for the body, then the match type will be “ignore” and thus not failure and will not be discarded from the group.
 
@@ -123,7 +123,7 @@ Orbital does not implement 100% of the OpenAPI spec. Additionally, there are som
 
 5.  If there are **multiple scenarios that partially match**, then:
 
-    1.  See section *How to determine which response is returned when multiple scenarios match a request*
+    1.  See section (How to determine which response is returned when multiple scenarios match a request)[#how-to-determine-which-response-is-returned-when-multiple-scenarios-match-a-request]
 
     2.  This process is repeated for all remaining scenarios.
 
