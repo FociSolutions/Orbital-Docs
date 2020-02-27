@@ -8,7 +8,7 @@ sidebar:
 
 ### What are they?
 
-In a Mockdefinition file, the Scenarios have a series of matching rules, this includes Header match rules.
+In a mockdefinition file, the scenarios have a series of matching rules, these include header match rules.
 
 Header match rules are rules that govern the request header properties. This allows you to mock out the different
 valid and invalid headers of API endpoints.
@@ -18,40 +18,40 @@ valid and invalid headers of API endpoints.
 When you add a header match rule and response, this enables you to mock out what the response is to requests with 
 these chosen header rules.
 
-After uploading the Mockdefinition to the server using the Orbital Designer, you can now generate a request with 
+After uploading the mockdefinition to the server using the Orbital Designer, you can now generate a request with 
 tools like Postman that will replicate the scenario. Setting the header to match the rule(s) that you have created,
 and receiving back the responses mocked out earlier.
 
-### Creating a header match rule
+### Creating a header match rule in the Orbital Designer
 
-Once a new Mockdefinition is generated, you start at the Endpoint Overview. This displays the available endpoints
-along with their verbs, endpoint path and if there are any existing Scenarios.
+Once a new mockdefinition is generated, you start at the Endpoint Overview. This displays the available endpoints
+along with their verbs, endpoint path and if there are any existing scenarios.
 
-#### Here we see the overview of the endpoints
+#### Overview of the endpoints
 
 ![Endpoint Overview](/Orbital-Docs/assets/images/orbital-ui/endpointoverview.png)
 
-Select the endpoint to have a Scenario added. There will be a default Scenario to get going.
+Select the endpoint to add a scenario, or update an existing one. There will be a default scenario to get going.
 
-#### The default Scenario for /pets
+#### The default scenario for /pets
 
 ![Scenario Overview](/Orbital-Docs/assets/images/orbital-ui/scenariooverview.png)
 
-#### Here we have the input for adding a Header match rule
+#### Adding a header match rule
 
 ![Header Request Match - Request](/Orbital-Docs/assets/images/request-match-rules/addingheadermatchrule.png)
 
-We have added the key value pair of ```Content-Type``` and ```application/json``` with the Rule of ```Equals```. This
+We have added the key value pair of ```Content-Type``` and ```application/json``` with the rule of ```Equals```. This
 rule will check request headers to ensure they have the correct key and value.
 
 Once a key and a value of the request have been added, you will need to also add a response. The response includes
-the status code and the Body of the response. 
+the status code, an optional header and the body of the response. 
 
-#### Here we have the response being populated
+#### Response being populated
 
 ![Header Request Match - Response](/Orbital-Docs/assets/images/request-match-rules/addingheadermatchruleresponse.png)
 
-In the response section, the status code is a ```200``` and we added a body in the response.
+In the response section, the status code is a ```200``` and we added a body.
 
-Now click ```Save``` to save the Scenario and head back to the main Scenario page.
+Now click ```Save``` to save the scenario and head back to the main Scenario Overview page.
 
