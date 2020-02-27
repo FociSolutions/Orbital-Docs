@@ -24,6 +24,18 @@ docs:
         url: /docs/installation
       - title: 'Upgrading'
         url: /docs/upgrading
+  - title: 'Orbital Work Flow'
+    children:
+      - title: 'Mockdefinition'
+        url: /docs/mockdefinition
+      - title: 'Header Rules'
+        url: /docs/headersrules
+      - title: 'Query Rules'
+        url: /docs/queryrules
+      - title: 'Url Rules'
+        url: /docs/urlrules
+      - title: 'Body Rules'
+        url: /docs/bodyrules
   - title: Architecture
     children:
       - title: 'Orbital Client'
