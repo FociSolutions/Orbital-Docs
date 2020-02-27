@@ -4,6 +4,7 @@ title: Url Rules
 permalink: /docs/urlrules
 sidebar:
   nav: "docs"
+classes: wide
 ---
 
 ## What are they?

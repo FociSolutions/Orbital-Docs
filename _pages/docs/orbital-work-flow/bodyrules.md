@@ -4,6 +4,7 @@ title: Body Rules
 permalink: /docs/bodyrules
 sidebar:
   nav: "docs"
+classes: wide
 ---
 
 ## What are they?

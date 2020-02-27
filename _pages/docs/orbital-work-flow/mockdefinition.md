@@ -4,6 +4,7 @@ title: Mockdefinition
 permalink: /docs/mockdefinition
 sidebar:
   nav: "docs"
+classes: wide
 ---
 
 ## What is it?

@@ -4,6 +4,7 @@ title: Header Match Rules
 permalink: /docs/headersrules
 sidebar:
   nav: "docs"
+classes: wide
 ---
 
 ### What are they?

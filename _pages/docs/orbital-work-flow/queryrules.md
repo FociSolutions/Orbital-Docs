@@ -4,6 +4,7 @@ title: Query Rules
 permalink: /docs/queryrules
 sidebar:
   nav: "docs"
+classes: wide
 ---
 
 ## What are they?
