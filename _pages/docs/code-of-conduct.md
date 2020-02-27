@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Code of Conduct
-permalink: /docs/code-of-coduct/
+permalink: /docs/code-of-conduct/
 sidebar:
   nav: 'docs'
 ---

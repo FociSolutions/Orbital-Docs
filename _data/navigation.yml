@@ -3,7 +3,7 @@ main:
   - title: 'About Us'
     url: '/about'
   - title: 'Documentation'
-    url: '/docs/quick-start-guide/'
+    url: '/docs/quick-start-guide'
   - title: 'Git'
     url: 'https://github.com/FociSolutions/Orbital'
   # - title: "About"
@@ -19,13 +19,11 @@ docs:
   - title: Getting Started
     children:
       - title: 'Quick-Start Guide'
-        url: /docs/quick-start-guide/
-      - title: 'Structure'
-        url: /docs/structure/
+        url: /docs/quick-start-guide
       - title: 'Installation'
-        url: /docs/installation/
+        url: /docs/installation
       - title: 'Upgrading'
-        url: /docs/upgrading/
+        url: /docs/upgrading
   - title: 'Orbital Work Flow'
     children:
       - title: 'Mockdefinition'
@@ -38,15 +36,21 @@ docs:
         url: /docs/urlrules
       - title: 'Body Rules'
         url: /docs/bodyrules
+  - title: Architecture
+    children:
+      - title: 'Orbital Client'
+        url: /docs/architecture/designer
+      - title: 'Orbital Server'
+        url: /docs/architecture/server
   - title: 'Code of Conduct'
     url: /docs/code-of-conduct/
   - title: 'License'
-    url: /docs/license/
+    url: /docs/license
   - title: 'Contributing'
-    url: /docs/contributing/
+    url: /docs/contributing
   - title: 'Style Guide'
     children:
       - title: 'Orbital Designer'
-        url: /docs/designer_style_guide/
+        url: /docs/designer_style_guide
       - title: 'Orbital Server'
-        url: /docs/server_style_guide/
+        url: /docs/server_style_guide
