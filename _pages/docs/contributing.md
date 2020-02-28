@@ -4,6 +4,7 @@ title: Contributing
 permalink: /docs/contributing/
 sidebar:
   nav: 'docs'
+classes: wide
 ---
 
 Welcome! We're excited to have contributors like you interested in supporting Orbital. Since Orbital is a modular solution, there's plenty of work to go around.

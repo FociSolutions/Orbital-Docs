@@ -4,6 +4,7 @@ title: Orbital Designer Style Guide
 permalink: /docs/designer_style_guide/
 sidebar:
   nav: "docs"
+classes: wide
 ---
 
 Much of our style guide pulls directly from [Angular's Style Guide](https://angular.io/guide/styleguide). When in doubt, their documentation is a good place to look.

@@ -4,6 +4,7 @@ title: Quick-Start Guide
 permalink: /docs/quick-start-guide
 sidebar:
   nav: "docs"
+classes: wide
 ---
 
 This quick start guide will show you how to make a simple petstore which returns a pet by name. If no pets are found, it will return a custom message.
