@@ -16,7 +16,7 @@ feature_row:
   - image_path:
     title: "Request Matching Rules"
     excerpt: "Incorporating highly flexible and customizable request matching rules, virtually any kind of request can be matched"
-    url: "#TBD"
+    url: "docs/mockdefinition"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path:
