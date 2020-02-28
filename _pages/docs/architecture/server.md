@@ -4,6 +4,7 @@ title: Architecture of Orbital's Server
 permalink: /docs/architecture/server
 sidebar:
   nav: "docs"
+classes: wide
 ---
 
 Server

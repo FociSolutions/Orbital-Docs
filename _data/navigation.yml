@@ -52,3 +52,5 @@ docs:
         url: /docs/designer_style_guide
       - title: 'Orbital Server'
         url: /docs/server_style_guide
+  - title: About Us
+    url: /docs/about-us

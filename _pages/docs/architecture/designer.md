@@ -4,6 +4,7 @@ title: Architecture of Orbital's Designer
 permalink: /docs/architecture/designer
 sidebar:
   nav: "docs"
+classes: wide
 ---
 
 The purpose of this project is to make it very easy to mock a server capable of responding to requests using a list of endpoints. This reduces the frontend-backend team coupling, allowing teams to work independently.

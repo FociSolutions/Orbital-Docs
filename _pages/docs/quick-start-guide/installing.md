@@ -4,6 +4,7 @@ title: Installation
 permalink: /docs/installation/
 sidebar:
   nav: 'docs'
+classes: wide
 ---
 
 **Note: Orbital uses an in-memory datastore. Please save or export all data (via Download Mockdefinitions or Export Mock to Server) before exiting, otherwise it will be lost.**

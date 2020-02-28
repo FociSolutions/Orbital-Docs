@@ -4,6 +4,7 @@ title: License
 permalink: /docs/license/
 sidebar:
   nav: 'docs'
+classes: wide
 ---
 
 Copyright (c) 2020 Foci Solutions . All rights reserved.

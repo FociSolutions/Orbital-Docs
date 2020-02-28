@@ -4,6 +4,7 @@ title: Code of Conduct
 permalink: /docs/code-of-conduct/
 sidebar:
   nav: 'docs'
+classes: wide
 ---
 
 ## Our Pledge

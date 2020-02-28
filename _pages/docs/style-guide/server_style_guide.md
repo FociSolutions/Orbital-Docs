@@ -4,6 +4,7 @@ title: Orbital Server Style Guide
 permalink: /docs/server_style_guide/
 sidebar:
   nav: 'docs'
+classes: wide
 ---
 
 Much of our style guide pulls directly from Microsoft's [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/articles/csharp/programming-guide/inside-a-program/coding-conventions#Anchor_3). When in doubt, their documentation is a good place to look.
