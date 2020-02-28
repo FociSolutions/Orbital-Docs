@@ -22,8 +22,6 @@ docs:
         url: /docs/quick-start-guide
       - title: 'Installation'
         url: /docs/installation
-      - title: 'Upgrading'
-        url: /docs/upgrading
   - title: 'Orbital Work Flow'
     children:
       - title: 'Mockdefinition'
