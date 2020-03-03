@@ -25,4 +25,4 @@ should expect from the endpoint. A scenario consists of:
 - Request Match Rules: These rules will indicate what the users HTTP request has to match to get a response from the server.
 - Response: The server's response to the user's HTTP request.
 
-The request match rules include [Header rules](/Orbital-Docs/docs/headersrules), [Query rules](/Orbital-Docs/docs/queryrules), [Url rules](/Orbital-Docs/docs/urlrules) and [Body rules](/Orbital-Docs/docs/bodyrules)
+The request match rules include [Header rules](./headersrules), [Query rules](./queryrules), [Url rules](./urlrules) and [Body rules](./bodyrules)
