@@ -16,11 +16,11 @@ valid and invalid body values.
 
 ## How do they work?
 
-When you add a body match rule and response, this allows you to mock out what the response is to requests with 
+When you add a body match rule and response, this allows you to mock out what the response is to requests with
 these chosen body match rules.
 
-After uploading the mockdefinition to the server using the Orbital Designer, you can now generate a request with 
-tools like Postman that will meet the criteria of the scenario. Setting the body to match the rule(s) that you 
+After uploading the mockdefinition to the server using the Orbital Designer, you can now generate a request with
+tools like Postman that will meet the criteria of the scenario. Setting the body to match the rule(s) that you
 have created and receiving back the responses mocked out earlier.
 
 ### Creating a url match rule in the Orbital Designer
@@ -30,33 +30,33 @@ along with their verbs, endpoint path and if there are any existing scenarios.
 
 #### Here we see the overview of the endpoints
 
-![Endpoint Overview](/Orbital-Docs/assets/images/orbital-ui/endpointoverview.png)
+![Endpoint Overview](../../../assets/images/orbital-ui/endpointoverview.png)
 
 Select the endpoint to have a scenario added. There will be a default scenario to get going.
 
 #### The default scenario for /pets
 
-![Scenario Overview](/Orbital-Docs/assets/images/orbital-ui/scenariooverview.png)
+![Scenario Overview](../../../assets/images/orbital-ui/scenariooverview.png)
 
 #### Here we have the input for adding a url match rule
 
-![URL Request Match - Request](/Orbital-Docs/assets/images/request-match-rules/addingbodymatchrule.png)
+![URL Request Match - Request](../../../assets/images/request-match-rules/addingbodymatchrule.png)
 
 localhost:4000?Search=Orbital
 
-We have added the value of ```/pets``` the rule of ```Equals```. This
+We have added the value of `/pets` the rule of `Equals`. This
 rule will check request url endpoint path to ensure they have the correct value.
 
 Once a value of the request body has been added, you will need to also add a response. The response
-includes the status code and the Body of the response. 
+includes the status code and the Body of the response.
 
 Once a value and rule for the url match rule has been added, you will need to also add a response. The response
-includes the status code and the body of the response. 
+includes the status code and the body of the response.
 
 #### Here we have the response being populated
 
-![URL Request Match - Response](/Orbital-Docs/assets/images/request-match-rules/addingbodymatchruleresponse.png)
+![URL Request Match - Response](../../../assets/images/request-match-rules/addingbodymatchruleresponse.png)
 
-In the response section, the status code is a ```200``` and we added a body in the response.
+In the response section, the status code is a `200` and we added a body in the response.
 
-Now click ```Save``` to save the scenario and head back to the main Scenario Overview page.
+Now click `Save` to save the scenario and head back to the main Scenario Overview page.
