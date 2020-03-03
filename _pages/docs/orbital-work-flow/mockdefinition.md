@@ -3,14 +3,14 @@ layout: single
 title: Mockdefinition
 permalink: /docs/mockdefinition
 sidebar:
-  nav: "docs"
+  nav: 'docs'
 classes: wide
 ---
 
 ## What is it?
 
 The Mockdefinition is a JSON file that describes any number of endpoints and the scenarios that can be used to meet their criteria. We
-create a Mockdefinition using an YAML OpenApi file to start. 
+create a Mockdefinition using a YAML OpenApi file to start.
 
 The OpenApi file defines a standard, programming language-agnostic interface description for APIs, allowing humans and computers to understand the capabilities of a service without source code.
 
@@ -25,4 +25,4 @@ should expect from the endpoint. A scenario consists of:
 - Request Match Rules: These rules will indicate what the users HTTP request has to match to get a response from the server.
 - Response: The server's response to the user's HTTP request.
 
- The request match rules include [Header rules](/docs/headersrules), [Query rules](/docs/queryrules), [Url rules](/docs/urlrules) and [Body rules](/docs/bodyrules)
+The request match rules include [Header rules](/Orbital-Docs/docs/headersrules), [Query rules](/Orbital-Docs/docs/queryrules), [Url rules](/Orbital-Docs/docs/urlrules) and [Body rules](/Orbital-Docs/docs/bodyrules)
