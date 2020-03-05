@@ -35,6 +35,8 @@ feature_row:
 
 {% include feature_row %}
 
+Orbital uses Mockdefinitions to match incoming requests. A Mockdefinition is an annotated OpenAPI spec (written in JSON) that contains the scenarios used to match requests for each endpoint. The OpenAPI spec defines a standard, programming language-agnostic interface description for APIs, allowing humans and computers to understand the capabilities of a service without source code.
+
 The Mockdefinition format is very powerful and easy to use. Here is how the endpoint `PUT /pet/sammy` is matched (and returns `"Page for Sammy the cat"`):
 
 ```json
