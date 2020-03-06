@@ -6,13 +6,13 @@ main:
     url: '/docs/quick-start-guide'
   - title: 'Git'
     url: 'https://github.com/FociSolutions/Orbital'
-  # - title: "About"
+  # - title: 'About'
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
+  # - title: 'Sample Posts'
   #   url: /year-archive/
-  # - title: "Sample Collections"
+  # - title: 'Sample Collections'
   #   url: /collection-archive/
-  # - title: "Sitemap"
+  # - title: 'Sitemap'
   #   url: /sitemap/
 
 docs:
@@ -23,9 +23,10 @@ docs:
       - title: 'Installation'
         url: /docs/installation
   - title: 'Orbital Request Match Rules'
+    url:
+  - title: 'Mockdefinition'
+    url: /docs/mockdefinition
     children:
-      - title: 'Mockdefinition'
-        url: /docs/mockdefinition
       - title: 'Header Rules'
         url: /docs/headersrules
       - title: 'Query Rules'
