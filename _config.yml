@@ -22,6 +22,7 @@ github_username: FociSolutions
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 relative_permalinks: false
+title: ""
 # Outputting
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
