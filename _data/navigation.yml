@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: 'About Us'
-    url: '/about'
-  - title: 'Documentation'
-    url: '/docs/quick-start-guide'
-  - title: 'Git'
-    url: 'https://github.com/FociSolutions/Orbital'
+  - title: "About Us"
+    url: "/about"
+  - title: "Documentation"
+    url: "/docs/quick-start-guide"
+  - title: "Git"
+    url: "https://github.com/FociSolutions/Orbital"
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -18,39 +18,40 @@ main:
 docs:
   - title: Getting Started
     children:
-      - title: 'Quick-Start Guide'
+      - title: "Quick-Start Guide"
         url: /docs/quick-start-guide
-      - title: 'Installation'
+      - title: "Installation"
         url: /docs/installation
-  - title: 'Orbital Request Match Rules'
+  - title: "Orbital Request Match Rules"
+    url:
+  - title: "Mockdefinition"
+    url: /docs/mockdefinition
     children:
-      - title: 'Mockdefinition'
-        url: /docs/mockdefinition
-      - title: 'Header Rules'
+      - title: "Header Rules"
         url: /docs/headersrules
-      - title: 'Query Rules'
+      - title: "Query Rules"
         url: /docs/queryrules
-      - title: 'Url Rules'
+      - title: "Url Rules"
         url: /docs/urlrules
-      - title: 'Body Rules'
+      - title: "Body Rules"
         url: /docs/bodyrules
   - title: Architecture
     children:
-      - title: 'Orbital Client'
+      - title: "Orbital Client"
         url: /docs/architecture/designer
-      - title: 'Orbital Server'
+      - title: "Orbital Server"
         url: /docs/architecture/server
-  - title: 'Code of Conduct'
+  - title: "Code of Conduct"
     url: /docs/code-of-conduct/
-  - title: 'License'
+  - title: "License"
     url: /docs/license
-  - title: 'Contributing'
+  - title: "Contributing"
     url: /docs/contributing
-  - title: 'Style Guide'
+  - title: "Style Guide"
     children:
-      - title: 'Orbital Designer'
+      - title: "Orbital Designer"
         url: /docs/designer_style_guide
-      - title: 'Orbital Server'
+      - title: "Orbital Server"
         url: /docs/server_style_guide
   - title: About Us
     url: /docs/about-us
