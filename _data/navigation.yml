@@ -35,6 +35,8 @@ docs:
         url: /docs/urlrules
       - title: 'Body Rules'
         url: /docs/bodyrules
+      - title: 'Policies'
+        url: /docs/policies
   - title: Architecture
     children:
       - title: 'Orbital Client'

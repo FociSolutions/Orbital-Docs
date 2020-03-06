@@ -42,4 +42,4 @@ This quick start guide will show you how to make a simple petstore which returns
 
 Congratulations! You have finished the getting started guide. Feel free to edit the example or use a different OpenAPI definition to match different types of requests.
 
-If you want to learn more about scenarios and rule matching, see the Orbital Request Match Rules (TBD.)
+If you want to learn more about scenarios, [policies](/docs/policies), and rule matching, see the [Orbital Request Match Rules](/docs/mockdefinition).
