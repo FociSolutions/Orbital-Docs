@@ -22,7 +22,7 @@ docs:
         url: /docs/quick-start-guide
       - title: 'Installation'
         url: /docs/installation
-  - title: 'Orbital Work Flow'
+  - title: 'Orbital Request Match Rules'
     children:
       - title: 'Mockdefinition'
         url: /docs/mockdefinition
