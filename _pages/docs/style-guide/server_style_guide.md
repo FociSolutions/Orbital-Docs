@@ -9,14 +9,14 @@ classes: wide
 
 Much of our style guide pulls directly from Microsoft's [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/articles/csharp/programming-guide/inside-a-program/coding-conventions#Anchor_3). When in doubt, their documentation is a good place to look.
 
-## Guiding Principle: Consistency is king.
+## Guiding Principle: Consistency is king
 
 While we try hard to adhere to our style guide, sometimes conventions work their way into the code and just start getting used across the board. As such, we think it is most important that the code is consistent in its construction. If there is something in this style guide that is being ignored throughout the code, please follow the convention already in place. If you see something that doesn't adhere to either this guide or the code, please change it to follow the lead of the rest of the code. We're counting on everyone working together to keep our code as readable as possible.
 
 ## Naming Conventions
 
-“c” = camelCase
-“P” = PascalCase
+“c” = camelCase.
+“P” = PascalCase.
 “x” = Not Applicable.
 
 | Identifier      | Public | Protected | Internal | Private | Notes                                                                                           |
@@ -141,35 +141,35 @@ Everyone has hers or his own coding style, and everyone thinks theirs is best. G
 - Place namespace `using` statements together at the top of file. Group .NET namespaces above custom namespaces.
 - Keep lambda statements tidy. If they have more than two `.`,then indent and use multiple lines. Avoid nested lambdas if possible.
 - Group internal `class` implementation by type in the following order:
-  1.       Member variables.
-  2.       Constructors & Finalizers.
-  3.       Nested Enums, Structs, and Classes.
-  4.       Properties
-  5.       Methods
-  6.       Sequence declarations within type groups based upon access modifier and visibility:
-  - Public
-  - Protected
-  - Internal
-  - Private
+  1.         Member variables.
+  2.         Constructors & Finalizers.
+  3.         Nested Enums, Structs, and Classes.
+  4.         Properties.
+  5.         Methods.
+  6.         Sequence declarations within type groups based upon access modifier and visibility:
+  - Public.
+  - Protected.
+  - Internal.
+  - Private.
 - Use #region statements to group implementations and code when applicable.
 - Indent code within brackets.
 - Use white space (tabs, line breaks, etc) liberally to separate and organize code.
 - One attribute per line above the class declaration.
 - The following attribute declarations all get separate lines:
-  - Assembly scope
-  - Type scope
-  - Method scope
-  - Member scope
+  - Assembly scope.
+  - Type scope.
+  - Method scope.
+  - Member scope.
 - Parameter attribute declarations go inline with the parameter.
-- Do not explicitly specify a type of an `enum` or values of `enum`s
+- Do not explicitly specify a type of an `enum` or values of `enum`s:
 
 ```csharp
             // Bad!
            public enum Direction : long
            {
                North = 1,
-               East ,
-               South ,
+               East,
+               South,
                West
            }
 
@@ -183,7 +183,7 @@ Everyone has hers or his own coding style, and everyone thinks theirs is best. G
            }
 ```
 
-- Do not suffix `enum` names with `Enum`
+- Do not suffix `enum` names with `Enum`:
 
 ```csharp
            // Bad!

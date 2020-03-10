@@ -23,7 +23,7 @@ After uploading the mockdefinition to the server using the Orbital Designer, you
 tools like Postman that will meet the criteria of the scenario. Setting the body to match the rule(s) that you
 have created and receiving back the responses mocked out earlier.
 
-### Creating a url match rule in the Orbital Designer
+### Creating a URL match rule in the Orbital Designer
 
 Once a new mockdefinition is generated, you start at the Endpoint Overview. This displays the available endpoints
 along with their verbs, endpoint path and if there are any existing scenarios.
@@ -38,19 +38,19 @@ Select the endpoint to have a scenario added. There will be a default scenario t
 
 ![Scenario Overview](../../../assets/images/orbital-ui/scenariooverview.png)
 
-#### Here we have the input for adding a url match rule
+#### Here we have the input for adding a URL match rule
 
 ![URL Request Match - Request](../../../assets/images/request-match-rules/addingbodymatchrule.png)
 
 localhost:4000?Search=Orbital
 
 We have added the value of `/pets` the rule of `Equals`. This
-rule will check request url endpoint path to ensure they have the correct value.
+rule will check request URL endpoint path to ensure they have the correct value.
 
 Once a value of the request body has been added, you will need to also add a response. The response
 includes the status code and the Body of the response.
 
-Once a value and rule for the url match rule has been added, you will need to also add a response. The response
+Once a value and rule for the URL match rule has been added, you will need to also add a response. The response
 includes the status code and the body of the response.
 
 #### Here we have the response being populated

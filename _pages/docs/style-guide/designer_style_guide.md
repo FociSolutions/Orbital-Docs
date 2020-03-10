@@ -3,7 +3,7 @@ layout: single
 title: Orbital Designer Style Guide
 permalink: /docs/designer_style_guide/
 sidebar:
-  nav: "docs"
+  nav: 'docs'
 classes: wide
 ---
 
@@ -38,8 +38,8 @@ Think about creating a folder for a component when it has multiple accompanying 
 
 ```javascript
 /**
- * Sets the selected list to the items passed into it
- * @param items The list of items to set as selected from the left list
+ * Sets the selected list to the items passed into it.
+ * @param items The list of items to set as selected from the left list.
  */
 ```
 
