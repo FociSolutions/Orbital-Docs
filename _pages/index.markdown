@@ -1,36 +1,36 @@
 ---
-title: "Orbital"
+title: 'Orbital'
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_color: '#000'
+  overlay_filter: '0.5'
   overlay_image: /assets/images/planets.jpg
   actions:
-    - label: "Get Started"
-      url: "docs/quick-start-guide"
-  caption: ""
-excerpt: "Orbital is an HTTP mocking tool that enables enables rapid microservice development and testing"
+    - label: 'Get Started'
+      url: 'docs/quick-start-guide'
+  caption: ''
+excerpt: 'Orbital is an HTTP mocking tool that enables enables rapid microservice development and testing'
 feature_row:
   - image_path:
-    title: "Request Matching Rules"
-    excerpt: "Incorporating highly flexible and customizable request matching rules, virtually any kind of request can be matched"
-    url: "docs/mockdefinition"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    title: 'Request Matching Rules'
+    excerpt: 'Incorporating highly flexible and customizable request matching rules, virtually any kind of request can be matched.'
+    url: 'docs/mockdefinition'
+    btn_label: 'Read More'
+    btn_class: 'btn--primary'
   - image_path:
-    title: "Flexible Deployment"
-    excerpt: "Built with Docker and .NET Core, Orbital can be deployed anywhere Docker is supported, including Windows, Linux, and macOS"
-    url: "docs/installation/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    title: 'Flexible Deployment'
+    excerpt: 'Built with Docker and .NET Core, Orbital can be deployed anywhere Docker is supported, including Windows, Linux, and macOS.'
+    url: 'docs/installation/'
+    btn_label: 'Read More'
+    btn_class: 'btn--primary'
   - image_path:
-    title: "Server"
-    excerpt: "Orbital's modular pipeline architecture allows for easy development, request matching, and debugging"
-    url: "docs/architecture/server"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    title: 'Server'
+    excerpt: "Orbital's modular pipeline architecture allows for easy development, request matching, and debugging."
+    url: 'docs/architecture/server'
+    btn_label: 'Read More'
+    btn_class: 'btn--primary'
 ---
 
 {% include feature_row %}

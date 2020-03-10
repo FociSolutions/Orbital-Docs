@@ -31,7 +31,7 @@ docs:
         url: /docs/headersrules
       - title: 'Query Rules'
         url: /docs/queryrules
-      - title: 'Url Rules'
+      - title: 'URL Rules'
         url: /docs/urlrules
       - title: 'Body Rules'
         url: /docs/bodyrules

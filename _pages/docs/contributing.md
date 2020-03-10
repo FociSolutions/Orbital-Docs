@@ -51,7 +51,7 @@ You found a bug. That sucks. Okay, let's get this thing fixed. Here are some ste
   - What version of RabbitMQ are you using?
 - **Attach some files.** Add log files, screenshots, even animated GIFS that might show more information about the bug.
 - **Suggest a solution.** Maybe the fix isn't obvious, but even if you're not going to code a solution we would appreciate your inclusion of the fruits of your investigation so far.
-- **Sumbit your bug.** Send us an email with all the information to the project team at [opensource@focisolutions.com](mailto:opensource@focisolutions.com)
+- **Sumbit your bug.** Send us an email with all the information to the project team at [opensource@focisolutions.com](mailto:opensource@focisolutions.com).
 
 ## Feature Suggestions
 
@@ -59,7 +59,7 @@ We know Orbital has the room for many cool new features. You see that too? Want 
 
 - As with [bugs](#bug-reporting), please **check the list** of [outstanding and in-development features](https://dev.azure.com/focisolutions/Orbital/_workitems/recentlycreated/) to make sure it hasn't already been reported.
 - **Create a descriptive and clear title.**
-- **Provide a thorough description of the feature.** Can you add a step-by-step guide? Describe each step of interaction and expected behaviour in execution.
+- **Provide a thorough description of the feature.** Can you add a step-by-step guide? Describe each step of interaction and expected behavior in execution.
 - **Explain the added value.** What priority should this feature be? Why? How would it make Orbital more useful to the most people?
 - **Include documentation.** Link to any supporting documentation that might be necessary.
 - **Label it as an enhancement.** We don't want to confuse our features and bugs.
