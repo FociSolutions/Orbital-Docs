@@ -11,7 +11,7 @@ header:
     - label: "Get Started"
       url: "docs/quick-start-guide"
   caption: ""
-excerpt: "Orbital is an HTTP mocking framework that enables teams to achieve rapid software development and testing"
+excerpt: "Orbital is an HTTP mocking tool that enables enables rapid microservice development and testing"
 feature_row:
   - image_path:
     title: "Request Matching Rules"

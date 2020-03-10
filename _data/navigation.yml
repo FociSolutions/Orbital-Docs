@@ -1,7 +1,7 @@
 # main links
 main:
   - title: 'About Us'
-    url: '/about'
+    url: '/docs/about-us'
   - title: 'Documentation'
     url: '/docs/quick-start-guide'
   - title: 'Git'

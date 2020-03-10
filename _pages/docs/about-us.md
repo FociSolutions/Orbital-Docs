@@ -21,7 +21,7 @@ against a mocked API that doesn't exist yet. Or better yet, testing edge cases t
 by mocking them out. How will your application react?
 
 
- Orbital is an HTTP mocking framework that enables teams to achieve rapid software development and testing. Orbital supports mocking
+ Orbital is an HTTP mocking tool that enables enables rapid microservice development and testing. Orbital supports mocking
  services by using the OpenApi specification files in both YAML and JSON.
  Orbital allows for parallel development between front-end and back-end teams by reducing the dependency between each other. This reduces 
  idle time and creates a more flexible and dynamic development workspace.
