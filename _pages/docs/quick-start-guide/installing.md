@@ -39,15 +39,15 @@ The mock definition designer will be running on `http://localhost:4200`, and the
 
 If you're running Linux, you'll need:
 
-- the [Linux .NET 2.2 SDK](https://docs.microsoft.com/dotnet/core/install/linux-package-managers)
-- the [Linux npm and the NodeJS package manager](https://nodejs.org/en/download/package-manager/)
-- git via `apt-get install git`
+- the [Linux .NET 2.2 SDK](https://docs.microsoft.com/dotnet/core/install/linux-package-managers).
+- the [Linux npm and the NodeJS package manager](https://nodejs.org/en/download/package-manager/).
+- git via `apt-get install git`.
 
 If you're running Windows, you'll need:
 
-- the [Windows .NET 2.2 SDK](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-2.2.100-windows-x64-installer)
-- the [Windows npm and the NodeJS package manager](https://nodejs.org/en/download/)
-- the Git [.exe installer for Windows](https://git-scm.com/download/win)
+- the [Windows .NET 2.2 SDK](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-2.2.100-windows-x64-installer).
+- the [Windows npm and the NodeJS package manager](https://nodejs.org/en/download/).
+- the Git [.exe installer for Windows](https://git-scm.com/download/win).
 
 ## Clone
 
