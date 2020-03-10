@@ -28,7 +28,7 @@ This quick start guide will show you how to make a simple petstore which returns
 17. Set the title to `Return a pet`
 18. Under &quot;Query Match Rules&quot;, type in `pet` as the key and `sammy` as the value
 19. Click &quot;+&quot; next to the entry
-20. In "Request Match Rules", remove the "Accept All" match rule in the "Url Match Rules" section. This rule is automatically added to new Mockdefinitions.
+20. In "Request Match Rules", remove the "Accept All" match rule in the "URL Match Rules" section. This rule is automatically added to new Mockdefinitions.
 21. Set the response status code to `200`
 22. Set the response body to `"Sammy the cat"` (with quotes)
 23. Click "Save"

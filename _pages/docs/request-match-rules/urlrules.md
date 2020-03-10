@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Url Rules
+title: URL Rules
 permalink: /docs/urlrules
 sidebar:
   nav: "docs"
@@ -9,21 +9,21 @@ classes: wide
 
 ## What are they?
 
-In a mockdefinition file, the scenarios have a series of matching rules, these include url match rules.
+In a mockdefinition file, the scenarios have a series of matching rules, these include URL match rules.
 
-Url match rules are rules that govern the request url endpoint path property. This allows you to mock out the different
-valid and invalid endpoint path url values.
+URL match rules are rules that govern the request URL endpoint path property. This allows you to mock out the different
+valid and invalid endpoint path URL values.
 
 ## How do they work?
 
-When you add a url match rule and response, this enables you to mock out what the response is to requests with
-these chosen url match rules.
+When you add a URL match rule and response, this enables you to mock out what the response is to requests with
+these chosen URL match rules.
 
 After uploading the mockdefinition to the server using the Orbital Designer, you can now generate a request with
-tools like Postman that will replicate the scenario. Setting the url endpoint path to match the rule(s) that you
+tools like Postman that will replicate the scenario. Setting the URL endpoint path to match the rule(s) that you
 have created and receiving back the responses mocked out earlier.
 
-### Creating a url match rule in the Orbital Designer
+### Creating a URL match rule in the Orbital Designer
 
 Once a new mockdefinition is generated, you start at the Endpoint Overview. This displays the available endpoints
 along with their verbs, endpoint path and if there are any existing scenarios.
@@ -38,14 +38,14 @@ Select the endpoint to add a scenario, or update an existing one. There will be 
 
 ![Scenario Overview](../../../assets/images/orbital-ui/scenariooverview.png)
 
-#### Adding a url match rule
+#### Adding a URL match rule
 
 ![URL Request Match - Request](../../../assets/images/request-match-rules/addingurlmatchrule.png)
 
 We have added the value of `/pets` and the rule of `Equals`. This
-rule will check the request url endpoint path to ensure they have the same value.
+rule will check the request URL endpoint path to ensure they have the same value.
 
-Once a value and rule for the url match rule has been added, you will need to add a response. The response
+Once a value and rule for the URL match rule has been added, you will need to add a response. The response
 includes the status code, an optional header and the body of the response.
 
 #### Response being populated
