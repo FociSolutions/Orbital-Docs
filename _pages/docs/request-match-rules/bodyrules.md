@@ -3,7 +3,7 @@ layout: single
 title: Body Rules
 permalink: /docs/bodyrules
 sidebar:
-  nav: "docs"
+  nav: 'docs'
 classes: wide
 ---
 
@@ -41,8 +41,6 @@ Select the endpoint to have a scenario added. There will be a default scenario t
 #### Here we have the input for adding a URL match rule
 
 ![URL Request Match - Request](../../../assets/images/request-match-rules/addingbodymatchrule.png)
-
-localhost:4000?Search=Orbital
 
 We have added the value of `/pets` the rule of `Equals`. This
 rule will check request URL endpoint path to ensure they have the correct value.
