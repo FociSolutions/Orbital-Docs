@@ -57,9 +57,9 @@ These are the rules which determine when a scenario or endpoint is matched:
 
 Orbital does not implement 100% of the OpenAPI spec. Additionally, there are some modifications to the default behavior of how endpoints match which are different than how the OpenAPI spec suggests. These differences are described as follows:
 
-- All parameters must be in the URL as in the endpoint. For example, the URL [_http://localhost/pets/1/2_](http://localhost/pets/1/2) would not match /pets/{id}/{id2}/{id3}, because {id3} is missing. The required attribute in the OpenAPI spec is ignored.
+- All parameters must be in the URL as in the endpoint. For example, the URL [_http://localhost/pets/1/2_](http://localhost/pets/1/2) would not match `/pets/{id}/{id2}/{id3}`, because `{id3}` is missing. The required attribute in the OpenAPI spec is ignored.
 
-- If there are enough parameters specified to fulfill all parameterizations, then the URL will be matched and the other paths will be optional. For example, the URL “[_https://localhost:5001/pet/uploadImage_](https://localhost:5001/pet/uploadImage)” matches the endpoint /pet/**{petId}**/uploadImage (here, uploadImage is used in place of {petId}), however /pet/uploadImage/**test** does not because **uploadImage** is automatically considered optional but still has to be fully specified or not specified at all; **test** is not exactly equal to an empty string or **uploadImage**).
+- If there are enough parameters specified to fulfill all parameterizations, then the URL will be matched and the other paths will be optional. For example, the URL “[_https://localhost:5001/pet/uploadImage_](https://localhost:5001/pet/uploadImage)” matches the endpoint `/pet/**{petId}**/uploadImage` (here, `uploadImage` is used in place of `{petId}`), however `/pet/uploadImage/**test**` does not because `uploadImage` is automatically considered optional but still has to be fully specified or not specified at all; `test` is not exactly equal to an empty string or `uploadImage`).
 
 - Here are some examples of how the paths can and cannot match, and what parameterizations are valid in the OpenAPI spec but not valid for Orbital:
 
@@ -107,7 +107,7 @@ Orbital does not implement 100% of the OpenAPI spec. Additionally, there are som
 
   - Headers and queries rule type (for example equals or contains) matches just the value. The key must be an exact equality match.
 
-  - Multiple bodies can be matched in the request only if one of the match types is not textual equals or JSON equals, and there is at least one type. Warning: if the body match type is JSON equals, then the structure can only be nested up to `C`\#’s stack limit ([_14250_](https://rosettacode.org/wiki/Find_limit_of_recursion#C.23).) Otherwise, it will throw an error and could crash the server.
+  - Multiple bodies can be matched in the request only if one of the match types is not textual equals or JSON equals, and there is at least one type. Warning: if the body match type is JSON equals, then the structure can only be nested up to `C#`’s stack limit ([_14250_](https://rosettacode.org/wiki/Find_limit_of_recursion#C.23).) Otherwise, it will throw an error and could crash the server.
 
   - To see when URL rules are matched, see section [How are URL rules matched?](#how-are-url-rules-matched).
 
@@ -157,9 +157,9 @@ Orbital does not implement 100% of the OpenAPI spec. Additionally, there are som
 
 ### How are URL rules matched?
 
-- Match everything after the host name. For example, [\*http://localhost**/sammy/pets\***](http://localhost/sammy/pets)**,** including the leading / .
+- Match everything after the host name. For example, [\*http://localhost**/sammy/pets\***](http://localhost/sammy/pets)**,** including the leading `/`.
 
-- Cannot inherit parameterization, but endpoints can. For example, if the endpoint is “/pets/{petId}”, then specifying “{petId}” in the URL rule will not match it and would be treated as a string literal.
+- Cannot inherit parameterization, but endpoints can. For example, if the endpoint is `/pets/{petId}`, then specifying `{petId}` in the URL rule will not match it and would be treated as a string literal.
 
 - Must use a valid `C`\# regex when matching with regexes. For example, `\\d{0,9}` to match a digit (without quotes).
 
@@ -171,7 +171,7 @@ Orbital does not implement 100% of the OpenAPI spec. Additionally, there are som
 
 The title of the Mockdefinition that was least recently uploaded will take precedence; this means that if `B` was uploaded before `A`, and if `B` contains a matching endpoint, then `A` won’t be considered (or any others after it.)
 
-Here are some examples (A, `B`, and `C` are identical Mockdefinitions except the responses are different. “A” and “B” are the names of the Mockdefinitions):
+Here are some examples (`A`, `B`, and `C` are identical Mockdefinitions except the responses are different. `A` and `B` are the names of the Mockdefinitions):
 
 - If `A` is uploaded and then `B`, `A`’s endpoint matches.
 

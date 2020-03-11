@@ -57,7 +57,7 @@ If you're running Windows, you'll need:
 
 `cd Orbital/src/Orbital.Mock.Server`
 
-`dotnet run` (defaults to http://localhost:5000)
+`dotnet run` (defaults to `http://localhost:5000`)
 
 ## Designer
 
@@ -67,4 +67,4 @@ If you're running Windows, you'll need:
 
 `npm run build`
 
-`npm run start` (defaults to http://localhost:4200)
+`npm run start` (defaults to `http://localhost:4200`)

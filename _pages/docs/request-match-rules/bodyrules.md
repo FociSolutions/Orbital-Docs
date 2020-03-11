@@ -57,4 +57,4 @@ includes the status code and the body of the response.
 
 In the response section, the status code is a `200` and we added a body in the response.
 
-Now click `Save` to save the scenario and head back to the main Scenario Overview page.
+Now click "Save" to save the scenario and head back to the main Scenario Overview page.
