@@ -103,13 +103,13 @@ Orbital does not implement 100% of the OpenAPI spec. Additionally, there are som
 
 - The scenarios are grouped by their id (each group is now a list of scenarios, which contains the body, query, URL, and header match results.) Each one of these types (body, query, URL, and header) can be a successful match (matched exactly), failure match (did not match), or ignore match (user did not specify any rules.)
 
-  1.  Headers, queries, and bodies are matched individually; there can be multiple successful and failure matches per group in a scenario. This means if I have headers `X`, `Y`, and `Z` and my request has header `X`, then it will successfully match header `X`, but not header `Y` and `Z`. Similarly, if I don’t specify any headers, then any headers sent in the request will be ignored.
+  - Headers, queries, and bodies are matched individually; there can be multiple successful and failure matches per group in a scenario. This means if I have headers `X`, `Y`, and `Z` and my request has header `X`, then it will successfully match header `X`, but not header `Y` and `Z`. Similarly, if I don’t specify any headers, then any headers sent in the request will be ignored.
 
-  2.  Headers and queries rule type (for example equals or contains) matches just the value. The key must be an exact equality match.
+  - Headers and queries rule type (for example equals or contains) matches just the value. The key must be an exact equality match.
 
-  3.  Multiple bodies can be matched in the request only if one of the match types is not textual equals or JSON equals, and there is at least one type. Warning: if the body match type is JSON equals, then the structure can only be nested up to `C`\#’s stack limit ([_14250_](https://rosettacode.org/wiki/Find_limit_of_recursion#C.23).) Otherwise, it will throw an error and could crash the server.
+  - Multiple bodies can be matched in the request only if one of the match types is not textual equals or JSON equals, and there is at least one type. Warning: if the body match type is JSON equals, then the structure can only be nested up to `C`\#’s stack limit ([_14250_](https://rosettacode.org/wiki/Find_limit_of_recursion#C.23).) Otherwise, it will throw an error and could crash the server.
 
-  4.  To see when URL rules are matched, see section [How are URL rules matched?](#how-are-url-rules-matched).
+  - To see when URL rules are matched, see section [How are URL rules matched?](#how-are-url-rules-matched).
 
 - If a group contains a match failure (i.e. a scenario failed to match on the body, query, URL, or header) then the scenario will be discarded from the potential candidates to be returned to the user, except for headers. Headers are treated individually, which means that they are not part of the match group and so if one does not match that does not mean that the entire scenario is discarded. If the user did not specify a rule for the body, then the match type will be “ignore” and thus not failure and will not be discarded from the group.
 
