@@ -7,7 +7,7 @@ sidebar:
 classes: wide
 ---
 
-This quick start guide will show you how to make a simple petstore which returns a pet by name. If no pets are found, it will return a custom message.
+This quick start guide will show you how to make a simple pet store which returns a pet by name. If no pets are found, it will return a custom message.
 
 1. Deploy the components using [Docker](/docs/installation) to start up the designer and server.
 2. Navigate to [http://localhost:4200](http://localhost:4200) in your browser.
