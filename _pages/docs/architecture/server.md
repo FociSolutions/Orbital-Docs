@@ -173,19 +173,19 @@ The title of the Mockdefinition that was least recently uploaded will take prece
 
 Here are some examples (A, `B`, and `C` are identical Mockdefinitions except the responses are different. “A” and “B” are the names of the Mockdefinitions):
 
-- If `A` is uploaded and then `B`, A’s endpoint matches.
+- If `A` is uploaded and then `B`, `A`’s endpoint matches.
 
-- If `B` is uploaded and then `A`, B’s endpoint matches.
+- If `B` is uploaded and then `A`, `B`’s endpoint matches.
 
-- If `B` is uploaded and then `A` and then `C`, B’s endpoint matches.
+- If `B` is uploaded and then `A` and then `C`, `B`’s endpoint matches.
 
-- If `B` is uploaded and then `A` and then `C` then deleted `A`, then B’s endpoint matches (suggesting no re-ordering).
+- If `B` is uploaded and then `A` and then `C` then deleted `A`, then `B`’s endpoint matches (suggesting no re-ordering).
 
-- If `A` is uploaded and then `B`, and then uploaded `B` again, A’s endpoint matches.
+- If `A` is uploaded and then `B`, and then uploaded `B` again, `A`’s endpoint matches.
 
-- If `A` is uploaded and then `B`, then uploaded `A` again, A’s endpoint matches.
+- If `A` is uploaded and then `B`, then uploaded `A` again, `A`’s endpoint matches.
 
-- If only `A` is uploaded, then A’s endpoint matches.
+- If only `A` is uploaded, then `A`’s endpoint matches.
 
 ### Definitions
 
