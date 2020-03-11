@@ -22,6 +22,10 @@ docs:
         url: /docs/quick-start-guide
       - title: 'Installation'
         url: /docs/installation
+  - title: 'Mockdefinition'
+    children:
+      - title: 'What is a Mockdefinition?'
+        url: /docs/mockdefinition
   - title: 'Orbital Request Match Rules'
     children:
       - title: 'Header Rules'
