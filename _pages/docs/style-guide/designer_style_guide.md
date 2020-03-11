@@ -23,7 +23,8 @@ Have a near-term view of implementation and a long-term vision. Starting small b
 
 All content is one asset per file. Each component, service, and pipe is in its own file. All their part vendor scripts are to be store in another folder and not in the `src`, this prevents cluttering. Using the naming conventions above should also help keeping the project organized.
 
-LIFT
+### LIFT
+
 Structure the app such that you can _Locate_ code quickly, _Identify_ the code at a glance, keep the _Flattest_ structure you can, and _Try_ to be DRY (Don't Repeat Yourself).
 This will provide a consistent structure that scales well, is modular, and makes it easier to increase developer efficiency by finding code quickly.
 Being DRY is important, but not crucial if it sacrifices the other elements of LIFT.
