@@ -25,9 +25,9 @@ Figure 1. High-level architecture diagram of the server.
 
 - The list of scenarios are passed to the _Message Processor Input._
 
-- From there, see the section _Matching an endpoint/scenario_ for more information regarding how a request is matched.
+- From there, see the section [Matching an endpoint or scenario](#matching-an-endpoint-or-scenario) for more information regarding how a request is matched.
 
-### Matching an endpoint/scenario
+### Matching an endpoint or scenario
 
 For each endpoint, there are a list of scenarios. In each scenario, there are a list of rules that determine when the request is matched.
 
@@ -37,7 +37,7 @@ These are the rules which determine when a scenario or endpoint is matched:
 
 1.  The client requests an endpoint on the server (for example `/pets/sammy`, when the user navigates to [_http://localhost:5000/pets/sammy_](http://localhost:5000/pets/sammy).) The request URL always begins with a slash.
 
-2.  The client’s request (URL and method type) are matched against a list of endpoints. These endpoints are part of the server’s Mockdefinition, which the user has uploaded. See the _Which Mockdefinition is matched?_ section for more information. The _Equality URL Rules_ apply (except for a URL matching rule, which matches it exactly.) The method type must match exactly in order for the endpoints’ scenarios to consider matching (for example a GET request.) Additionally, the following rules apply depending on the endpoint type:
+2.  The client’s request (URL and method type) are matched against a list of endpoints. These endpoints are part of the server’s Mockdefinition, which the user has uploaded. See the [Which Mockdefinition is matched?](#which-mockdefinition-is-matched) section for more information. The _Equality URL Rules_ apply (except for a URL matching rule, which matches it exactly.) The method type must match exactly in order for the endpoints’ scenarios to consider matching (for example a GET request.) Additionally, the following rules apply depending on the endpoint type:
 
     1.  If the endpoint is parameterized, see section [How parameterized endpoints are matched](#how-parameterized-endpoints-are-matched) for more information. If the endpoint is not parameterized, then it will be matched according to the _Equality URL Rules_ definition.
 
