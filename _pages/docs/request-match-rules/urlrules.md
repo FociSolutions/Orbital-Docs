@@ -9,7 +9,7 @@ classes: wide
 
 ## What are they?
 
-In a mockdefinition file, the scenarios have a series of matching rules, these include URL match rules.
+In a Mockdefinition file, the scenarios have a series of matching rules, these include URL match rules.
 
 URL match rules are rules that govern the request URL endpoint path property. This allows you to mock out the different
 valid and invalid endpoint path URL values.
@@ -19,13 +19,13 @@ valid and invalid endpoint path URL values.
 When you add a URL match rule and response, this enables you to mock out what the response is to requests with
 these chosen URL match rules.
 
-After uploading the mockdefinition to the server using the Orbital Designer, you can now generate a request with
+After uploading the Mockdefinition to the server using the Orbital Designer, you can now generate a request with
 tools like Postman that will replicate the scenario. Setting the URL endpoint path to match the rule(s) that you
 have created and receiving back the responses mocked out earlier.
 
 ### Creating a URL match rule in the Orbital Designer
 
-Once a new mockdefinition is generated, you start at the Endpoint Overview. This displays the available endpoints
+Once a new Mockdefinition is generated, you start at the Endpoint Overview. This displays the available endpoints
 along with their verbs, endpoint path and if there are any existing scenarios.
 
 #### Overview of the endpoints

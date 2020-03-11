@@ -17,7 +17,7 @@ It's very easy to get started; just [download the Docker Engine for Linux, Mac, 
 
 `docker run -p 5000:80 focisolutions/orbitalmock`
 
-The mock definition designer will be running on `http://localhost:4200`, and the server on `http://localhost:5000`.
+The Mockdefinition designer will be running on `http://localhost:4200`, and the server on `http://localhost:5000`.
 
 ## Using Docker Compose
 
@@ -31,7 +31,7 @@ Install [Docker Compose](https://docs.docker.com/compose/install/)
 
 `docker-compose up -d`
 
-The mock definition designer will be running on `http://localhost:4200`, and the server on `http://localhost:5000`.
+The Mockdefinition designer will be running on `http://localhost:4200`, and the server on `http://localhost:5000`.
 
 # Build From the source
 
