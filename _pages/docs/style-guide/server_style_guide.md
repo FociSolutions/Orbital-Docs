@@ -57,7 +57,7 @@ Good layout uses formatting to emphasize the structure of the code and makes the
 
 ## Commenting Conventions
 
-- Please use the XML Documentation Features, for more information, visit the [How-To Guide](https://docs.microsoft.com/en-us/dotnet/articles/csharp/programming-guide/xmldoc/how-to-use-the-xml-documentation-features). In short, enter `///` followed by any XML tags or text strings. If you enter `///` on the line before the definition, Visual Studio creates a template of a documentation comment and fills in the parameters and other information.
+- Please use the XML Documentation Features; for more information, visit the [How-To Guide](https://docs.microsoft.com/en-us/dotnet/articles/csharp/programming-guide/xmldoc/how-to-use-the-xml-documentation-features). In short, enter `///` followed by any XML tags or text strings. If you enter `///` on the line before the definition, Visual Studio creates a template of a documentation comment and fills in the parameters and other information.
   For example:
 
 ```csharp
@@ -141,17 +141,17 @@ Everyone has hers or his own coding style, and everyone thinks theirs is best. G
 - Place namespace `using` statements together at the top of file. Group .NET namespaces above custom namespaces.
 - Keep lambda statements tidy. If they have more than two `.`,then indent and use multiple lines. Avoid nested lambdas if possible.
 - Group internal `class` implementation by type in the following order:
-  1.         Member variables.
-  2.         Constructors & Finalizers.
-  3.         Nested Enums, Structs, and Classes.
-  4.         Properties.
-  5.         Methods.
-  6.         Sequence declarations within type groups based upon access modifier and visibility:
+  1.          Member variables.
+  2.          Constructors & Finalizers.
+  3.          Nested Enums, Structs, and Classes.
+  4.          Properties.
+  5.          Methods.
+  6.          Sequence declarations within type groups based upon access modifier and visibility:
   - Public.
   - Protected.
   - Internal.
   - Private.
-- Use #region statements to group implementations and code when applicable.
+- Use `#region` statements to group implementations and code when applicable.
 - Indent code within brackets.
 - Use white space (tabs, line breaks, etc) liberally to separate and organize code.
 - One attribute per line above the class declaration.

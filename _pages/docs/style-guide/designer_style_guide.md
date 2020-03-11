@@ -9,25 +9,25 @@ classes: wide
 
 Much of our style guide pulls directly from [Angular's Style Guide](https://angular.io/guide/styleguide). When in doubt, their documentation is a good place to look.
 
-## Guiding Principle: Consistency is king.
+## Guiding Principle: Consistency is king
 
 While we try hard to adhere to our style guide, sometimes conventions work their way into the code and just start getting used across the board. As such, we think it is most important that the code is consistent in its construction. If there is something in this style guide that is something that doesn't adhere to either this guide or the code, please change it to follow the lead of the rest of the code. We're counting on everyone working together to keep our code as readable as possible.
 
 ## Naming Convention
 
-Use consistent names for all symbols using a pattern that describes the symbols feature then its type. Recommendation from Angular is 'feature.type.ts'. This will help provide a consistent way to find content at a glance. Again, consistency is king and is important when working with a team. Even though it isn't easy managing consistency, it will pay off anytime someone needs to revisit any part of the code base.
+Use consistent names for all symbols using a pattern that describes the symbols feature then its type. Recommendation from Angular is `feature.type.ts`. This will help provide a consistent way to find content at a glance. Again, consistency is king and is important when working with a team. Even though it isn't easy managing consistency, it will pay off anytime someone needs to revisit any part of the code base.
 
 ## Layout Conventions
 
-Have a near-term view of implementation and a long-term vision. Starting small but keeping in mind where the app is heading down the road. All of the app's code goes into the `src` folder. All feature areas are in their own folder with their own NgModule.
+Have a near-term view of implementation and a long-term vision. Starting small but keeping in mind where the app is heading down the road. All of the app's code goes into the `src` folder. All feature areas are in their own folder with their own `NgModule`.
 
 All content is one asset per file. Each component, service, and pipe is in its own file. All their part vendor scripts are to be store in another folder and not in the `src`, this prevents cluttering. Using the naming conventions above should also help keeping the project organized.
 
 ### LIFT
 
-Structure the app such that you can _Locate_ code quickly, _Identify_ the code at a glance, keep the _Flattest_ structure you can, and _Try_ to be DRY (Don't Repeat Yourself).
+Structure the app such that you can _Locate_ code quickly, _Identify_ the code at a glance, keep the _Flattest_ structure you can, and _Try_ to be _DRY_ (Don't Repeat Yourself).
 This will provide a consistent structure that scales well, is modular, and makes it easier to increase developer efficiency by finding code quickly.
-Being DRY is important, but not crucial if it sacrifices the other elements of LIFT.
+Being _DRY_ is important, but not crucial if it sacrifices the other elements of _LIFT_.
 
 Some overall structural guidelines include: starting small and try to manage a road map of the direction of the project. Make sure all code is in the `src` folder.
 Think about creating a folder for a component when it has multiple accompanying files. This helps keep the app structure small and easy to maintain in the initial stages of development, while being easy to evolve as the app grows.
