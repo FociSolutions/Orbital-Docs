@@ -189,4 +189,4 @@ Here are some examples (A, `B`, and `C` are identical Mockdefinitions except the
 
 ### Definitions
 
-**Equality URL Rules:** /test/, test/, //test//test, /test all match the /test endpoint. The URL is matched via splitting the slashes and removing the empty entries, then recombining the URL.
+**Equality URL Rules:** `/test/`, `test/`, `//test//test`, `/test` all match the `/test` endpoint. The URL is matched via splitting the slashes and removing the empty entries, then recombining the URL.
