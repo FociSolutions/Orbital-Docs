@@ -7,7 +7,7 @@ sidebar:
 classes: wide
 ---
 
-**Note: Orbital uses an in-memory datastore. Please save or export all data (via Download Mockdefinitions or Export Mock to Server) before exiting, otherwise it will be lost.**
+**Note: Orbital uses an in-memory database. Please save or export all data (via Download Mockdefinitions or Export Mock to Server) before exiting, otherwise it will be lost.**
 
 It's very easy to get started; just [download the Docker Engine for Linux, Mac, and Windows](https://hub.docker.com/?overlay=onboarding):
 
