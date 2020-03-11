@@ -15,7 +15,7 @@ To add a new policy, open the “Policy” dropdown in the designer.
 
 ![Policy Empty](../../../assets/images/request-match-rules/policy_empty.png)
 
-Type in the number of milliseconds to delay the request (if it matches this scenario) and click + to add it.
+Type in the number of milliseconds to delay the request (if it matches this scenario) and click "+" to add it.
 
 ![Policy Filled](../../../assets/images/request-match-rules/policy_filled.png)
 
