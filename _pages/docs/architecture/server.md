@@ -131,7 +131,7 @@ Orbital does not implement 100% of the OpenAPI spec. Additionally, there are som
 
 5.  If there are **multiple scenarios that partially match**, then:
 
-    1.  See section (How to determine which response is returned when multiple scenarios match a request)[#how-to-determine-which-response-is-returned-when-multiple-scenarios-match-a-request].
+    1.  See section [How to determine which response is returned when multiple scenarios match a request](#how-to-determine-which-response-is-returned-when-multiple-scenarios-match-a-request).
 
     2.  This process is repeated for all remaining scenarios.
 
