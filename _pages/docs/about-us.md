@@ -7,8 +7,8 @@ sidebar:
 classes: wide
 ---
 
-The Orbital team is a group of like minded individuals looking for ways to make development easier. To contribute to the
-community and offer helpful development tools.
+The Orbital team is a group of like minded individuals looking for ways to make development easier, by contributing to the
+community and offering helpful development tools.
 
 We noticed that working with an API that isn't finished yet (or is just only getting started), development can be really delayed. Or
 when testing an application, recreating failure cases that are very specific or uncommon can be difficult.
