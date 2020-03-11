@@ -23,7 +23,7 @@ Figure 1. High-level architecture diagram of the server.
 
 - The request goes to the server’s middleware, and the middleware determines that it is not the admin endpoint, and so gathers all scenarios from all uploaded Mockdefinitions.
 
-- The list of scenarios are passed to the Message Processor Input.
+- The list of scenarios are passed to the _Message Processor Input._
 
 - From there, see the section _Matching an endpoint/scenario_ for more information regarding how a request is matched.
 
@@ -31,15 +31,15 @@ Figure 1. High-level architecture diagram of the server.
 
 For each endpoint, there are a list of scenarios. In each scenario, there are a list of rules that determine when the request is matched.
 
-A new scenario which matches all requests (also called a failsafe) will be added to all new Mockdefinitions that are created when using the designer. Existing Mockdefinitions (ones which were previously exported from the designer) are not modified. This means that there will always be a response, no matter what the request type is. This default scenario can be removed if you wish from the designer to change the behavior. This does not occur when editing the Mockdefinition manually (for example, using a text editor.)
+A new scenario which matches all requests (also called a _failsafe_) will be added to all new Mockdefinitions that are created when using the designer. Existing Mockdefinitions (ones which were previously exported from the designer) are not modified. This means that there will always be a response, no matter what the request type is. This default scenario can be removed if you wish from the designer to change the behavior. This does not occur when editing the Mockdefinition manually (for example, using a text editor.)
 
 These are the rules which determine when a scenario or endpoint is matched:
 
 1.  The client requests an endpoint on the server (for example /pets/sammy, when the user navigates to [_http://localhost:5000/pets/sammy_](http://localhost:5000/pets/sammy).) The request URL always begins with a slash.
 
-2.  The client’s request (URL and method type) are matched against a list of endpoints. These endpoints are part of the server’s Mockdefinition, which the user has uploaded. See the _Which Mockdefinition is matched?_ section for more information. The Equality URL Rules apply (except for a URL matching rule, which matches it exactly.) The method type must match exactly in order for the endpoints’ scenarios to consider matching (for example a GET request.) Additionally, the following rules apply depending on the endpoint type:
+2.  The client’s request (URL and method type) are matched against a list of endpoints. These endpoints are part of the server’s Mockdefinition, which the user has uploaded. See the _Which Mockdefinition is matched?_ section for more information. The _Equality URL Rules_ apply (except for a URL matching rule, which matches it exactly.) The method type must match exactly in order for the endpoints’ scenarios to consider matching (for example a GET request.) Additionally, the following rules apply depending on the endpoint type:
 
-    1.  If the endpoint is parameterized, see section [How parameterized endpoints are matched](#how-parameterized-endpoints-are-matched) for more information. If the endpoint is not parameterized, then it will be matched according to the Equality URL Rules definition.
+    1.  If the endpoint is parameterized, see section [How parameterized endpoints are matched](#how-parameterized-endpoints-are-matched) for more information. If the endpoint is not parameterized, then it will be matched according to the _Equality URL Rules_ definition.
 
     2.  Depending on how many endpoints match from the previous step:
 
