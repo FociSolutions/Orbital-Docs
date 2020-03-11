@@ -19,6 +19,6 @@ by mocking them out. How will your application react?
 
 
  Orbital is a mocking tool that enables enables rapid _microservice_ development and testing. Orbital supports mocking
- services by using the OpenApi specification files in both YAML and JSON.
+ services by using the OpenAPI specification files in both YAML and JSON.
  Orbital allows for parallel development between front-end and back-end teams by reducing the dependency between each other. This reduces idle time and creates a more flexible and dynamic development workspace.
 
