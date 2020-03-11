@@ -171,7 +171,7 @@ Orbital does not implement 100% of the OpenAPI spec. Additionally, there are som
 
 The title of the Mockdefinition that was least recently uploaded will take precedence; this means that if B was uploaded before A, and if B contains a matching endpoint, then A won’t be considered (or any others after it.)
 
-Here are some examples (A, B, and C are identical mockdefinitions except the responses are different. “A” and “B” are the names of the Mockdefinitions):
+Here are some examples (A, B, and C are identical Mockdefinitions except the responses are different. “A” and “B” are the names of the Mockdefinitions):
 
 - If A is uploaded and then B, A’s endpoint matches.
 
