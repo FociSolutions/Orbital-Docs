@@ -19,19 +19,32 @@ This quick start guide will show you how to make a simple petstore which returns
 8. You will be presented with a list of endpoints available in `petstore.json`. Click on &quot;GET /pets&quot;.
 9. Create a new scenario which will match all requests to the &quot;GET /pets&quot; endpoint [(http://localhost:5000/pets)](http://localhost:5000/pets), and do not match any other scenario(s) that we have provided:
    a. Click the scenario called &quot;default title for /pet&quot;.
+
    b. Start by filling the "Metadata" section. Give the new scenario a new name (call it `Default Scenario`) and description. The name is required.
+
    c. Set the response status code to `200`.
+
    d. Click "Response" then set the response body to `"No pets found"` (with quotes).
+
    e. Click &quot;Save&quot;.
+
 10. Create another scenario which will return `Sammy the cat` when a user goes to [http://localhost:5000/pets?pet=sammy](http://localhost:5000/pets?pet=sammy):
     a. Click &quot;+&quot; to create a new scenario.
+
     b. Set the title to `Return a pet`.
+
     c. Under &quot;Query Match Rules&quot;, type in `pet` as the key and `sammy` as the value.
+
     d. Click &quot;+&quot; next to the entry.
+
     e. In "Request Match Rules", remove the "Accept All" match rule in the "URL Match Rules" section. This rule is automatically added to new Mockdefinitions.
+
     f. Set the response status code to `200`.
+
     g. Set the response body to `"Sammy the cat"` (with quotes).
+
     h. Click "Save".
+
 11. In order for the Mockdefinition to match requests, it has to be uploaded to the Mockdefinition server. Click on &quot;Export Mock to Server&quot; in the left-hand sidebar.
 12. Move the Mockdefinition that you&#39;ve created to the right-hand side using the arrows.
 13. Use [http://localhost:5000/api/v1/OrbitalAdmin](http://localhost:5000/api/v1/OrbitalAdmin) as the server URI.
