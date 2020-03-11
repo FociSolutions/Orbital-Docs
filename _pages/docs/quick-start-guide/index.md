@@ -47,7 +47,7 @@ This quick start guide will show you how to make a simple petstore which returns
 
 11. In order for the Mockdefinition to match requests, it has to be uploaded to the Mockdefinition server. Click on &quot;Export Mock to Server&quot; in the left-hand sidebar.
 12. Move the Mockdefinition that you&#39;ve created to the right-hand side using the arrows.
-13. Use [http://localhost:5000/api/v1/OrbitalAdmin](http://localhost:5000/api/v1/OrbitalAdmin) as the server URI.
+13. Use [http://localhost:5000/api/v1/OrbitalAdmin](http://localhost:5000/api/v1/OrbitalAdmin) as the server URL.
 14. Click &quot;Upload&quot;.
 15. If uploading was successful, it will say that it was successful after a few seconds and move the exported Mockdefinition to the left-hand side.
     a. If it was not successful, ensure that your server is running. For more information, refer to the Installation instructions and ensure that you can access &quot;[http://localhost:5001](http://localhost:5001)&quot; in your browser.
