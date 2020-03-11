@@ -38,6 +38,10 @@ docs:
         url: /docs/bodyrules
       - title: 'Policies'
         url: /docs/policies
+  - title: 'Mockdefinition'
+    children:
+      - title: 'What is a Mockdefinition?'
+        url: /docs/mockdefinition
   - title: Architecture
     children:
       - title: 'Orbital Client'
