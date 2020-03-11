@@ -51,7 +51,7 @@ You found a bug. That sucks. Okay, let's get this thing fixed. Here are some ste
   - What version of RabbitMQ are you using?
 - **Attach some files.** Add log files, screenshots, even animated GIFS that might show more information about the bug.
 - **Suggest a solution.** Maybe the fix isn't obvious, but even if you're not going to code a solution we would appreciate your inclusion of the fruits of your investigation so far.
-- **Sumbit your bug.** Send us an email with all the information to the project team at [opensource@focisolutions.com](mailto:opensource@focisolutions.com).
+- **Submit your bug.** Send us an email with all the information to the project team at [opensource@focisolutions.com](mailto:opensource@focisolutions.com).
 
 ## Feature Suggestions
 
