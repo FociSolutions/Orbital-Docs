@@ -17,7 +17,7 @@ docs:
   - title: 'Orbital Request Match Rules'
     children:
       - title: 'Header Rules'
-        url: /docs/headersrules
+        url: /docs/header-rules
       - title: 'Query Rules'
         url: /docs/queryrules
       - title: 'URL Rules'

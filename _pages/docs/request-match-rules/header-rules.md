@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Header Match Rules
-permalink: /docs/headersrules
+permalink: /docs/header-rules
 sidebar:
   nav: 'docs'
 classes: wide
