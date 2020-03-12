@@ -31,15 +31,15 @@ along with their verbs, endpoint path and if there are any existing scenarios.
 
 #### Overview of the endpoints
 
-![Endpoint Overview](../../../assets/images/orbital-ui/endpointoverview.png)
+![Endpoint Overview](../../../assets/images/orbital-ui/endpoint-overview.png)
 
 Select the endpoint to add a scenario, or update an existing one. The following image shows the default scenario for `/pets`.
 
-![Scenario Overview](../../../assets/images/orbital-ui/scenariooverview.png)
+![Scenario Overview](../../../assets/images/orbital-ui/scenario-overview.png)
 
 #### Adding a query match rule
 
-![Query Request Match - Request](../../../assets/images/request-match-rules/addingquerymatchrule.png)
+![Query Request Match - Request](../../../assets/images/request-match-rules/adding-query-match-rule.png)
 
 The image shows the key value pair of `Search` and `Orbital` (which will match `https://localhost:5001/?Search=Orbital`)
 with the rule of `Equals`. This rule will check request query parameters to ensure they have the correct key and value.
@@ -47,7 +47,7 @@ with the rule of `Equals`. This rule will check request query parameters to ensu
 Once a key and a value of the request have been added, you will need to add a response. The response includes
 the status code, an optional header and the body of the response. The following image shows which response to use:
 
-![Query Request Match - Response](../../../assets/images/request-match-rules/addingquerymatchruleresponse.png)
+![Query Request Match - Response](../../../assets/images/request-match-rules/adding-query-match-rule-response.png)
 
 In the response section, the status code is a `200`.
 

@@ -28,16 +28,16 @@ along with their verbs, endpoint path and if there are any existing scenarios.
 
 #### Overview of the endpoints
 
-![Endpoint Overview](../../../assets/images/orbital-ui/endpointoverview.png)
+![Endpoint Overview](../../../assets/images/orbital-ui/endpoint-overview.png)
 
 Select the endpoint to add a scenario, or update an existing one. There will be a default scenario to get going.
 The following image shows the default scenario for `/pets`.
 
-![Scenario Overview](../../../assets/images/orbital-ui/scenariooverview.png)
+![Scenario Overview](../../../assets/images/orbital-ui/scenario-overview.png)
 
 #### Adding a URL match rule
 
-![URL Request Match - Request](../../../assets/images/request-match-rules/addingurlmatchrule.png)
+![URL Request Match - Request](../../../assets/images/request-match-rules/adding-url-match-rule.png)
 
 The image shows the rule value of `/pets` and the rule type of `Equals`. This
 rule will check the request URL endpoint path to ensure they have the same value.
@@ -45,7 +45,7 @@ rule will check the request URL endpoint path to ensure they have the same value
 Once a value and rule for the URL match rule has been added, you will need to add a response. The response
 includes the status code, an optional header and the body of the response.
 
-![URL Request Match - Response](../../../assets/images/request-match-rules/addingurlmatchruleresponse.png)
+![URL Request Match - Response](../../../assets/images/request-match-rules/adding-url-match-rule-response.png)
 
 In the response section, the status code is a `200`, and a body has been added for the response.
 

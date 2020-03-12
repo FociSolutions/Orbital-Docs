@@ -13,11 +13,11 @@ Policies allow certain principles and commands to run after a scenario has been 
 
 To add a new policy, open the "Policy" dropdown in the designer.
 
-![Policy Empty](../../../assets/images/request-match-rules/policy_empty.png)
+![Policy Empty](../../../assets/images/request-match-rules/policy-empty.png)
 
 Type in the number of milliseconds to delay the request (if it matches this scenario) and click "+" to add it.
 
-![Policy Filled](../../../assets/images/request-match-rules/policy_filled.png)
+![Policy Filled](../../../assets/images/request-match-rules/policy-filled.png)
 
 Multiple policies can be added, but the policies must be unique. Each policy will be applied sequentially, starting with the first policy at the top of the list. The request will be guaranteed to be delayed as least as long as the sum of all policy delays, but it could be delayed longer due to the time taken to process the request.
 

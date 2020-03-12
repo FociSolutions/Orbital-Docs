@@ -11,7 +11,7 @@ classes: wide
 
 The server provides a way to match scenarios from the list of uploaded Mockdefinitions. The server exposes a list of endpoints which correspond to scenarios within each Mockdefinition. Additionally, the server determines which scenario to execute by matching the incoming request against the list of scenarios, and choosing the most appropriate one.
 
-![](../../assets/images/image1.png)
+![](../../assets/images/server-diagram.png)
 
 Figure 1. High-level architecture diagram of the server.
 
