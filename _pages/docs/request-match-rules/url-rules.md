@@ -1,7 +1,7 @@
 ---
 layout: single
 title: URL Rules
-permalink: /docs/urlrules
+permalink: /docs/url-rules
 sidebar:
   nav: 'docs'
 classes: wide

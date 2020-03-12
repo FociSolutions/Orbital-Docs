@@ -21,7 +21,7 @@ docs:
       - title: 'Query Rules'
         url: /docs/query-rules
       - title: 'URL Rules'
-        url: /docs/urlrules
+        url: /docs/url-rules
       - title: 'Body Rules'
         url: /docs/body-rules
       - title: 'Policies'
