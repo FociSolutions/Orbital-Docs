@@ -21,7 +21,7 @@ All incoming requests' host is the server URL, and the endpoint is appended to t
 
 ### Sample message flow
 
-- The user requests “[_http://localhost:5000/pets/sammy_](http://localhost:5000/pets/sammy)”. [http://localhost:5000](http://localhost:5000) is the host of the server.
+- The user requests "[_http://localhost:5000/pets/sammy_](http://localhost:5000/pets/sammy)". [http://localhost:5000](http://localhost:5000) is the host of the server.
 
 - The request goes to the server’s middleware, and the middleware determines that it is not the admin endpoint (adding, editing, or deleting a Mockdefinition), and so gathers all scenarios from all uploaded Mockdefinitions. The admin endpoint for the server is `/api/v1/OrbitalAdmin`, and cannot be overridden through an OpenAPI spec or scenario.
 
@@ -63,7 +63,7 @@ Parameterized endpoints allow for wildcard-based matching for URLs, and allows p
 
 - All parameters must be in the URL as in the endpoint, but not all parameters in the endpoint must be in the URL. For example, the URL [http://localhost/pets/1/2](http://localhost/pets/1/2) would not match `/pets/{id}/{id2}/{id3}`, because `{id3}` is missing. The `required` attribute in the OpenAPI spec is ignored and is always `required`.
 
-- If there are enough parameters specified to fulfill all parameterizations, then the URL will be matched and the other paths will be optional. For example, the URL “[https://localhost:5001/pet/uploadImage](https://localhost:5001/pet/uploadImage)” matches the endpoint `/pet/**{petId}**/uploadImage` (here, `uploadImage` is used in place of `{petId}`), however `/pet/uploadImage/**test**` does not because `uploadImage` is automatically considered optional but still has to be fully specified or not specified at all; `test` is not exactly equal to an empty string or `uploadImage`.
+- If there are enough parameters specified to fulfill all parameterizations, then the URL will be matched and the other paths will be optional. For example, the URL "[https://localhost:5001/pet/uploadImage](https://localhost:5001/pet/uploadImage)" matches the endpoint `/pet/**{petId}**/uploadImage` (here, `uploadImage` is used in place of `{petId}`), however `/pet/uploadImage/**test**` does not because `uploadImage` is automatically considered optional but still has to be fully specified or not specified at all; `test` is not exactly equal to an empty string or `uploadImage`.
 
 - Here are some examples of how the paths can and cannot match, and which parameterizations are valid in the OpenAPI spec but are not valid for Orbital:
 
@@ -124,7 +124,7 @@ Parameterized endpoints allow for wildcard-based matching for URLs, and allows p
 
   - See section [How are URL rules matched?](#how-are-url-rules-matched) for more information when URL rules are matched.
 
-- If a scenario match group (for example, the list of scenarios which matched the request query) contains a match failure (i.e. a scenario failed to match on the body, query, URL, or header) then the scenario will be discarded from the potential candidates to be returned to the user, except for headers. Headers are treated individually, which means that they are not part of the match group and so if one does not match that does not mean that the entire scenario is discarded. If the user did not specify a rule for the body, then the match type will be “ignore” and thus not failure and will not be discarded from the group.
+- If a scenario match group (for example, the list of scenarios which matched the request query) contains a match failure (i.e. a scenario failed to match on the body, query, URL, or header) then the scenario will be discarded from the potential candidates to be returned to the user, except for headers. Headers are treated individually, which means that they are not part of the match group and so if one does not match that does not mean that the entire scenario is discarded. If the user did not specify a rule for the body, then the match type will be "ignore" and thus not failure and will not be discarded from the group.
 
 ### How the response selector works
 

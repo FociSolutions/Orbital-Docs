@@ -15,9 +15,9 @@ While we try hard to adhere to our style guide, sometimes conventions work their
 
 ## Naming Conventions
 
-“c” = camelCase.
-“P” = PascalCase.
-“x” = Not Applicable.
+"c" = camelCase.
+"P" = PascalCase.
+"x" = Not Applicable.
 
 | Identifier      | Public | Protected | Internal | Private | Notes                                                                                           |
 | --------------- | ------ | --------- | -------- | ------- | ----------------------------------------------------------------------------------------------- |
@@ -140,12 +140,12 @@ Everyone has hers or his own coding style. Going back to our guiding principle, 
 - Place namespace `using` statements together at the top of file. Group .NET namespaces above custom namespaces.
 - Keep lambda statements tidy. If they have more than two `.`, then indent and use multiple lines. Avoid nested lambdas if possible.
 - Group internal `class` implementations by type in the following order:
-  1.           Member variables.
-  2.           Constructors & Finalizers.
-  3.           Nested Enums, Structs, and Classes.
-  4.           Properties.
-  5.           Methods.
-  6.           Sequence declarations within type groups based upon access modifier and visibility:
+  1.             Member variables.
+  2.             Constructors & Finalizers.
+  3.             Nested Enums, Structs, and Classes.
+  4.             Properties.
+  5.             Methods.
+  6.             Sequence declarations within type groups based upon access modifier and visibility:
   - Public.
   - Protected.
   - Internal.

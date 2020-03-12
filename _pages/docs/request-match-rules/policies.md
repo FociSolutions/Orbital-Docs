@@ -11,7 +11,7 @@ Policies allow certain principles and commands to run after a scenario has been 
 
 ## Adding a new policy
 
-To add a new policy, open the “Policy” dropdown in the designer.
+To add a new policy, open the "Policy" dropdown in the designer.
 
 ![Policy Empty](../../../assets/images/request-match-rules/policy_empty.png)
 

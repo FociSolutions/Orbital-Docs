@@ -33,7 +33,7 @@ In order for the server to respond to endpoints, it requires at least one Mockde
 
 Downloading Mockdefinitions allow you to share them with others, or to save them to use later. Since the server stores all Mockdefinitions in an ephemeral in-memory database, **all Mockdefinitions must be downloaded before shutting down the server, otherwise they will be lost.**
 
-Note: when using this feature from the designer, click “Allow this site to download multiple files” warning (or a similar warning) as this is required to download multiple Mockdefinitions simultaneously.
+Note: when using this feature from the designer, click "Allow this site to download multiple files" warning (or a similar warning) as this is required to download multiple Mockdefinitions simultaneously.
 
 ### Components
 
