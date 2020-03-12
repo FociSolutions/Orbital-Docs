@@ -12,13 +12,13 @@ This quick-start guide will show how to make a simple pet store which returns a 
 1. Deploy the components using [Docker](/docs/installation) to start up the designer and server.
 2. Navigate to [http://localhost:4200](http://localhost:4200) in your browser.
 3. Download [petstore.json](https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/examples/v2.0/json/petstore.json) or use your own sample OpenAPI file.
-4. Click &quot;Create new Mock&quot;.
+4. Click "Create new Mock".
 5. Use `Pet Store Mock` as the Mockdefinition&#39;s title.
 6. Use `petstore.json` as the OpenAPI file.
-7. Click &quot;Next&quot;.
-8. You will be presented with a list of endpoints available in `petstore.json`. Click on &quot;GET /pets&quot;.
-9. Create a new scenario which will match all requests to the &quot;GET /pets&quot; endpoint [(http://localhost:5000/pets)](http://localhost:5000/pets), and do not match any other scenario(s) that have been provided:
-   a. Click the scenario called &quot;default title for /pet&quot;.
+7. Click "Next".
+8. You will be presented with a list of endpoints available in `petstore.json`. Click on "GET /pets".
+9. Create a new scenario which will match all requests to the "GET /pets" endpoint [(http://localhost:5000/pets)](http://localhost:5000/pets), and do not match any other scenario(s) that have been provided:
+   a. Click the scenario called "default title for /pet".
 
    b. Start by filling the "Metadata" section. Give the new scenario a new name (call it `Default Scenario`) and description. The name is required.
 
@@ -26,16 +26,16 @@ This quick-start guide will show how to make a simple pet store which returns a 
 
    d. Click "Response" then set the response body to `"No pets found"` (with quotes).
 
-   e. Click &quot;Save&quot;.
+   e. Click "Save".
 
 10. Create another scenario which will return `Sammy the cat` when a user goes to [http://localhost:5000/pets?pet=sammy](http://localhost:5000/pets?pet=sammy):
-    a. Click &quot;+&quot; to create a new scenario.
+    a. Click "+" to create a new scenario.
 
     b. Set the title to `Return a pet`.
 
-    c. Under &quot;Query Match Rules&quot;, type in `pet` as the key and `sammy` as the value.
+    c. Under "Query Match Rules", type in `pet` as the key and `sammy` as the value.
 
-    d. Click &quot;+&quot; next to the entry.
+    d. Click "+" next to the entry.
 
     e. In "Request Match Rules", remove the "Accept All" match rule in the "URL Match Rules" section. This rule is automatically added to new Mockdefinitions.
 
@@ -45,12 +45,12 @@ This quick-start guide will show how to make a simple pet store which returns a 
 
     h. Click "Save".
 
-11. In order for the Mockdefinition to match requests, it has to be uploaded to the Mockdefinition server. Click on &quot;Export Mock to Server&quot; in the left-hand sidebar.
+11. In order for the Mockdefinition to match requests, it has to be uploaded to the Mockdefinition server. Click on "Export Mock to Server" in the left-hand sidebar.
 12. Move the Mockdefinition that you&#39;ve created to the right-hand side using the arrows.
 13. Use [http://localhost:5000/api/v1/OrbitalAdmin](http://localhost:5000/api/v1/OrbitalAdmin) as the server URL.
-14. Click &quot;Upload&quot;.
+14. Click "Upload".
 15. If uploading was successful, it will say that it was successful after a few seconds and move the exported Mockdefinition to the left-hand side.
-    a. If it was not successful, ensure that your server is running. For more information, refer to the Installation instructions and ensure that &quot;[http://localhost:5001](http://localhost:5001)&quot; can be accessed in your browser.
+    a. If it was not successful, ensure that your server is running. For more information, refer to the Installation instructions and ensure that "[http://localhost:5001](http://localhost:5001)" can be accessed in your browser.
 16. Navigate to [http://localhost:5000/pets](http://localhost:5000/pets) in your browser. It should display `No pets found`, as a pet has not been specified.
 17. Navigate to [http://localhost:5000/pets?pet=sammy](http://localhost:5000/pets?pet=sammy) in your browser. It should display `Sammy the cat`.
 
