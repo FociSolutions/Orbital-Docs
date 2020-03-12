@@ -9,8 +9,6 @@ classes: wide
 
 ## What are they?
 
-In a Mockdefinition file, the scenarios have a series of matching rules, these include query match rules.
-
 Query match rules are rules that govern the request query properties. This allows you to mock out the different
 valid and invalid query values.
 
@@ -35,9 +33,7 @@ along with their verbs, endpoint path and if there are any existing scenarios.
 
 ![Endpoint Overview](../../../assets/images/orbital-ui/endpointoverview.png)
 
-Select the endpoint to add a scenario, or update an existing one. There will be a default scenario to get going.
-
-#### The default scenario for /pets
+Select the endpoint to add a scenario, or update an existing one. The following image shows the default scenario for `/pets`.
 
 ![Scenario Overview](../../../assets/images/orbital-ui/scenariooverview.png)
 
@@ -45,17 +41,14 @@ Select the endpoint to add a scenario, or update an existing one. There will be 
 
 ![Query Request Match - Request](../../../assets/images/request-match-rules/addingquerymatchrule.png)
 
-We have added the key value pair of `Search` and `Orbital` (which should look like
-this locally `https://localhost:5001/?Search=Orbital`) with the rule of `Equals`. This
-rule will check request query parameters to ensure they have the correct key and value.
+We have added the key value pair of `Search` and `Orbital` (which will match `https://localhost:5001/?Search=Orbital`)
+with the rule of `Equals`. This rule will check request query parameters to ensure they have the correct key and value.
 
 Once a key and a value of the request have been added, you will need to add a response. The response includes
-the status code, an optional header and the body of the response.
-
-#### Response being populated
+the status code, an optional header and the body of the response. The following image shows which response to use:
 
 ![Query Request Match - Response](../../../assets/images/request-match-rules/addingquerymatchruleresponse.png)
 
 In the response section, the status code is a `200` and we added a body.
 
-Now click "Save" to save the scenario and head back to the main Scenario Overview page.
+Click "Save" to save the scenario and return to the Scenario Overview page.
