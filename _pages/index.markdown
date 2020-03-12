@@ -22,7 +22,7 @@ feature_row:
   - image_path:
     title: 'Flexible Deployment'
     excerpt: 'Built with Docker and .NET Core, Orbital can be deployed anywhere Docker is supported, including Windows, Linux, and macOS.'
-    url: 'docs/installation/'
+    url: 'docs/installation'
     btn_label: 'Read More'
     btn_class: 'btn--primary'
   - image_path:

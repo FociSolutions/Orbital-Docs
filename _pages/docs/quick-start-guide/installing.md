@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Installation
-permalink: /docs/installation/
+permalink: /docs/installation
 sidebar:
   nav: 'docs'
 classes: wide
