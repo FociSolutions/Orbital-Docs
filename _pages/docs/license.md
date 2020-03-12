@@ -1,7 +1,7 @@
 ---
 layout: single
 title: License
-permalink: /docs/license/
+permalink: /docs/license
 sidebar:
   nav: 'docs'
 classes: wide

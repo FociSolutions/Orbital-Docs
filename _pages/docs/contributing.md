@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Contributing
-permalink: /docs/contributing/
+permalink: /docs/contributing
 sidebar:
   nav: 'docs'
 classes: wide
