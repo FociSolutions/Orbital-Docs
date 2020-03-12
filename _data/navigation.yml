@@ -19,7 +19,7 @@ docs:
       - title: 'Header Rules'
         url: /docs/header-rules
       - title: 'Query Rules'
-        url: /docs/queryrules
+        url: /docs/query-rules
       - title: 'URL Rules'
         url: /docs/urlrules
       - title: 'Body Rules'

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Query Rules
-permalink: /docs/queryrules
+permalink: /docs/query-rules
 sidebar:
   nav: 'docs'
 classes: wide
