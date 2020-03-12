@@ -7,7 +7,7 @@ sidebar:
 classes: wide
 ---
 
-This quick start guide will show you how to make a simple pet store which returns a pet by name. If no pets are found, it will return a custom message.
+This quick-start guide will show how to make a simple pet store which returns a pet by name. If no pets are found, it will return a custom message.
 
 1. Deploy the components using [Docker](/docs/installation) to start up the designer and server.
 2. Navigate to [http://localhost:4200](http://localhost:4200) in your browser.
@@ -50,7 +50,7 @@ This quick start guide will show you how to make a simple pet store which return
 13. Use [http://localhost:5000/api/v1/OrbitalAdmin](http://localhost:5000/api/v1/OrbitalAdmin) as the server URL.
 14. Click &quot;Upload&quot;.
 15. If uploading was successful, it will say that it was successful after a few seconds and move the exported Mockdefinition to the left-hand side.
-    a. If it was not successful, ensure that your server is running. For more information, refer to the Installation instructions and ensure that you can access &quot;[http://localhost:5001](http://localhost:5001)&quot; in your browser.
+    a. If it was not successful, ensure that your server is running. For more information, refer to the Installation instructions and ensure that &quot;[http://localhost:5001](http://localhost:5001)&quot; can be accessed in your browser.
 16. Navigate to [http://localhost:5000/pets](http://localhost:5000/pets) in your browser. It should display `No pets found`, as we did not specify a pet.
 17. Navigate to [http://localhost:5000/pets?pet=sammy](http://localhost:5000/pets?pet=sammy) in your browser. It should display `Sammy the cat`.
 
