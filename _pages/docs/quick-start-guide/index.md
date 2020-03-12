@@ -54,6 +54,6 @@ This quick start guide will show you how to make a simple pet store which return
 16. Navigate to [http://localhost:5000/pets](http://localhost:5000/pets) in your browser. It should display `No pets found`, as we did not specify a pet.
 17. Navigate to [http://localhost:5000/pets?pet=sammy](http://localhost:5000/pets?pet=sammy) in your browser. It should display `Sammy the cat`.
 
-Congratulations! You have created your very first Orbital Mock. Feel free to edit the example or use a different OpenAPI definition to match different types of requests.
+Congratulations! You have created your very first Orbital Mock. Feel free to edit the example or use a different OpenAPI spec to match different types of requests.
 
 If you want to learn more about scenarios, [policies](/docs/policies), or different rule matching with [Header rules](./headersrules), [Query rules](./queryrules), [URL rules](./urlrules) and [Body rules](./bodyrules).
