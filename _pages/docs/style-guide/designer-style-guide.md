@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Orbital Designer Style Guide
-permalink: /docs/designer_style_guide/
+permalink: /docs/designer-style-guide
 sidebar:
   nav: 'docs'
 classes: wide

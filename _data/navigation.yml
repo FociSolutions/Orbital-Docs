@@ -45,7 +45,7 @@ docs:
   - title: 'Style Guide'
     children:
       - title: 'Orbital Designer'
-        url: /docs/designer_style_guide
+        url: /docs/designer-style-guide
       - title: 'Orbital Server'
         url: /docs/server_style_guide
   - title: About Us
