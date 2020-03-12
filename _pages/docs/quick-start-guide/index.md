@@ -45,7 +45,7 @@ This quick-start guide will show how to make a simple pet store which returns a 
 
     h. Click "Save".
 
-11. In order for the Mockdefinition to match requests, it has to be uploaded to the Mockdefinition server. Click on "Export Mock to Server" in the left-hand sidebar.
+11. In order for the Mockdefinition to match requests, it has to be uploaded to the server. Click on "Export Mock to Server" in the left-hand sidebar.
 12. Move the Mockdefinition that you&#39;ve created to the right-hand side using the arrows.
 13. Use [http://localhost:5000/api/v1/OrbitalAdmin](http://localhost:5000/api/v1/OrbitalAdmin) as the server URL.
 14. Click "Upload".
