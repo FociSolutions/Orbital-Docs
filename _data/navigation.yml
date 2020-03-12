@@ -37,7 +37,7 @@ docs:
       - title: 'Orbital Server'
         url: /docs/architecture/server
   - title: 'Code of Conduct'
-    url: /docs/code-of-conduct/
+    url: /docs/code-of-conduct
   - title: 'License'
     url: /docs/license
   - title: 'Contributing'
