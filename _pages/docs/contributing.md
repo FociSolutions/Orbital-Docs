@@ -13,7 +13,7 @@ Welcome! We're excited to have contributors like you interested in supporting Or
 
 If you haven't already, you should check out our [Quick-Start Guide](/docs/quick-start-guide/) section. That's where you'll find our installation guide and an overview of the project.
 
-You should also take a moment to look at our [Code of Conduct](/docs/code-of-coduct/).
+You should also take a moment to look at our [Code of Conduct](/docs/code-of-conduct/).
 
 Once you've covered those bases, take a look at our section on [Testing](#testing) or our [Code Standards](#code-standards). See something wrong or missing? Try [Bug Reporting](#bug-reporting) and [Feature Suggestions](#feature-suggestions). If you're ready to write some code, then you should refer to [Contributing Code](#contributing-code).
 
