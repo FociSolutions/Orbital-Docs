@@ -24,7 +24,7 @@ should expect from the endpoint. A scenario consists of:
 - **Request Match Rules:** these rules will indicate what the users HTTP request has to match to get a response from the server.
 - **Response:** the server's response to the user's HTTP request.
 
-The request match rules include [Header rules](./headersrules), [Query rules](./queryrules), [URL rules](./urlrules), and [Body rules](./bodyrules).
+The request match rules include [Header rules](./headersrules), [Query rules](./queryrules), [URL rules](./urlrules), and [Body rules](./body-rules).
 
 ### Sample Mockdefinition
 

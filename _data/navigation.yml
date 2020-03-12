@@ -23,7 +23,7 @@ docs:
       - title: 'URL Rules'
         url: /docs/urlrules
       - title: 'Body Rules'
-        url: /docs/bodyrules
+        url: /docs/body-rules
       - title: 'Policies'
         url: /docs/policies
   - title: 'Mockdefinition'

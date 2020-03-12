@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Body Rules
-permalink: /docs/bodyrules
+permalink: /docs/body-rules
 sidebar:
   nav: 'docs'
 classes: wide
