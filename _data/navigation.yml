@@ -47,6 +47,6 @@ docs:
       - title: 'Orbital Designer'
         url: /docs/designer-style-guide
       - title: 'Orbital Server'
-        url: /docs/server_style_guide
+        url: /docs/server-style-guide
   - title: About Us
     url: /docs/about-us
