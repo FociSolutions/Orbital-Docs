@@ -39,7 +39,7 @@ The following image shows the default scenario for `/pets`.
 
 ![URL Request Match - Request](../../../assets/images/request-match-rules/addingurlmatchrule.png)
 
-We have added the value of `/pets` and the rule of `Equals`. This
+The image shows the rule value of `/pets` and the rule type of `Equals`. This
 rule will check the request URL endpoint path to ensure they have the same value.
 
 Once a value and rule for the URL match rule has been added, you will need to add a response. The response
@@ -47,6 +47,6 @@ includes the status code, an optional header and the body of the response.
 
 ![URL Request Match - Response](../../../assets/images/request-match-rules/addingurlmatchruleresponse.png)
 
-In the response section, the status code is a `200` and we added a body in the response.
+In the response section, the status code is a `200`, and a body has been added for the response.
 
 Click "Save" to save the scenario return to the Scenario Overview page.

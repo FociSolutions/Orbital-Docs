@@ -37,7 +37,7 @@ Clicking on the scenario reveals the URL request match rules:
 
 ![URL Request Match - Request](../../../assets/images/request-match-rules/addingbodymatchrule.png)
 
-We have added the value of `/pets` the rule of `Equals`. This
+The image shows the rule of `/pets` and the rule type of `Equals`. This
 rule will check request URL endpoint path to ensure they have the correct value.
 
 Once a value of the request body and URL has been added, you will need to also add a response. The response

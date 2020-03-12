@@ -17,7 +17,7 @@ This quick-start guide will show how to make a simple pet store which returns a 
 6. Use `petstore.json` as the OpenAPI file.
 7. Click &quot;Next&quot;.
 8. You will be presented with a list of endpoints available in `petstore.json`. Click on &quot;GET /pets&quot;.
-9. Create a new scenario which will match all requests to the &quot;GET /pets&quot; endpoint [(http://localhost:5000/pets)](http://localhost:5000/pets), and do not match any other scenario(s) that we have provided:
+9. Create a new scenario which will match all requests to the &quot;GET /pets&quot; endpoint [(http://localhost:5000/pets)](http://localhost:5000/pets), and do not match any other scenario(s) that have been provided:
    a. Click the scenario called &quot;default title for /pet&quot;.
 
    b. Start by filling the "Metadata" section. Give the new scenario a new name (call it `Default Scenario`) and description. The name is required.
@@ -51,7 +51,7 @@ This quick-start guide will show how to make a simple pet store which returns a 
 14. Click &quot;Upload&quot;.
 15. If uploading was successful, it will say that it was successful after a few seconds and move the exported Mockdefinition to the left-hand side.
     a. If it was not successful, ensure that your server is running. For more information, refer to the Installation instructions and ensure that &quot;[http://localhost:5001](http://localhost:5001)&quot; can be accessed in your browser.
-16. Navigate to [http://localhost:5000/pets](http://localhost:5000/pets) in your browser. It should display `No pets found`, as we did not specify a pet.
+16. Navigate to [http://localhost:5000/pets](http://localhost:5000/pets) in your browser. It should display `No pets found`, as a pet has not been specified.
 17. Navigate to [http://localhost:5000/pets?pet=sammy](http://localhost:5000/pets?pet=sammy) in your browser. It should display `Sammy the cat`.
 
 Congratulations! You have created your very first Orbital Mock. Feel free to edit the example or use a different OpenAPI spec to match different types of requests.

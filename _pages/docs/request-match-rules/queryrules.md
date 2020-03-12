@@ -41,7 +41,7 @@ Select the endpoint to add a scenario, or update an existing one. The following 
 
 ![Query Request Match - Request](../../../assets/images/request-match-rules/addingquerymatchrule.png)
 
-We have added the key value pair of `Search` and `Orbital` (which will match `https://localhost:5001/?Search=Orbital`)
+The image shows the key value pair of `Search` and `Orbital` (which will match `https://localhost:5001/?Search=Orbital`)
 with the rule of `Equals`. This rule will check request query parameters to ensure they have the correct key and value.
 
 Once a key and a value of the request have been added, you will need to add a response. The response includes
@@ -49,6 +49,6 @@ the status code, an optional header and the body of the response. The following 
 
 ![Query Request Match - Response](../../../assets/images/request-match-rules/addingquerymatchruleresponse.png)
 
-In the response section, the status code is a `200` and we added a body.
+In the response section, the status code is a `200`.
 
 Click "Save" to save the scenario and return to the Scenario Overview page.

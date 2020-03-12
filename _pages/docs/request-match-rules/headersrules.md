@@ -34,7 +34,7 @@ Select the endpoint to add a scenario, or update an existing one. The following 
 
 ![Header Request Match - Request](../../../assets/images/request-match-rules/addingheadermatchrule.png)
 
-We have added the key value pair of `Content-Type` and `application/json` with the rule type of `Equals`. This
+The image shows the key value pair of `Content-Type` and `application/json` with the rule type of `Equals`. This
 rule will check request headers to ensure they match.
 
 Once a key and a value of the request have been added, you will need to also add a response. The response includes

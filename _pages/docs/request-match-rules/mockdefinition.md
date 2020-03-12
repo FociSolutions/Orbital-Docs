@@ -9,7 +9,7 @@ classes: wide
 
 ## What is it?
 
-The Mockdefinition format that drives our platform is powerful and easy to learn. A Mockdefinition is a JSON file that describes endpoints and the scenarios that can be used to meet their criteria. We create a Mockdefinition using a YAML OpenAPI file to start.
+The Mockdefinition format that drives our platform is powerful and easy to learn. A Mockdefinition is a JSON file that describes endpoints and the scenarios that can be used to meet their criteria.
 
 The OpenAPI file defines a standard, programming language-agnostic interface description for APIs, allowing humans and computers to understand the capabilities of a service without source code.
 
