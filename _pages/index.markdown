@@ -26,7 +26,7 @@ feature_row:
     btn_label: 'Read More'
     btn_class: 'btn--primary'
   - image_path:
-    title: 'Server'
+    title: 'Isolated Pipeline'
     excerpt: "Orbital's modular pipeline architecture allows for easy development, request matching, and debugging."
     url: 'docs/architecture/server'
     btn_label: 'Read More'
@@ -35,7 +35,9 @@ feature_row:
 
 {% include feature_row %}
 
-Orbital uses Mockdefinitions to match incoming requests. A Mockdefinition is an annotated OpenAPI spec (written in JSON) that contains the scenarios used to match requests for each endpoint. The OpenAPI spec defines a standard, programming language-agnostic interface description for APIs, allowing humans and computers to understand the capabilities of a service without source code.
+Orbital is an HTTP mocking tool that enables enables rapid _microservice_ development and testing. Orbital supports mocking services by using the OpenAPI spec in both YAML and JSON. Orbital allows for parallel development between front-end and back-end teams by reducing the dependencies between each other. This allows for increased productivity because the back-end team does not have to wait for the front-end team, and vice-versa. Deploying Orbital in your organization is very easy, and can remove these dependencies.
+
+Orbital uses the Mockdefinition format to know when and what response to return when a request is matched. A Mockdefinition is an annotated OpenAPI spec (written in JSON) that contains the scenarios used to match requests for each endpoint. The OpenAPI spec defines a standard, programming language-agnostic interface description for APIs, allowing humans and computers to understand the capabilities of a service without source code.
 
 The Mockdefinition format is very powerful and easy to use. Here is how the endpoint `PUT /pet/sammy` is matched (and returns `"Page for Sammy the cat"`):
 
