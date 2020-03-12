@@ -9,8 +9,6 @@ classes: wide
 
 ## What are they?
 
-In a Mockdefinition file, the scenarios have a series of matching rules, these include URL match rules.
-
 URL match rules are rules that govern the request URL endpoint path property. This allows you to mock out the different
 valid and invalid endpoint path URL values.
 
@@ -33,8 +31,7 @@ along with their verbs, endpoint path and if there are any existing scenarios.
 ![Endpoint Overview](../../../assets/images/orbital-ui/endpointoverview.png)
 
 Select the endpoint to add a scenario, or update an existing one. There will be a default scenario to get going.
-
-#### The default scenario for /pets
+The following image shows the default scenario for `/pets`.
 
 ![Scenario Overview](../../../assets/images/orbital-ui/scenariooverview.png)
 
@@ -48,10 +45,8 @@ rule will check the request URL endpoint path to ensure they have the same value
 Once a value and rule for the URL match rule has been added, you will need to add a response. The response
 includes the status code, an optional header and the body of the response.
 
-#### Response being populated
-
 ![URL Request Match - Response](../../../assets/images/request-match-rules/addingurlmatchruleresponse.png)
 
 In the response section, the status code is a `200` and we added a body in the response.
 
-Now click "Save" to save the scenario and head back to the main Scenario Overview page.
+Click "Save" to save the scenario return to the Scenario Overview page.
