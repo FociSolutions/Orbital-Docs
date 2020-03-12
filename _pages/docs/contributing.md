@@ -29,7 +29,7 @@ For Orbital Server, we don't unit test our repositories. Repositories should be 
 
 ## Code Standards
 
-Our coding standards can be found in our external [Style Guide](/docs/styleguide).
+Our coding standards can be found in our external [Style Guide](/docs/designer_style_guide/).
 
 ## Bug Reporting
 
@@ -70,7 +70,7 @@ Here are a few guidelines to making your contribution:
 
 - **Check the project for existing pull requests.** Best to prevent the duplication of effort.
 - **Create a new branch for your work.** It's best to create the branch from the issue itself to keep the naming consistent.
-- **Follow our [style guide](/docs/styleguide).**
+- **Follow our [style guide](/docs/designer_style_guide/).**
 - **Include unit tests.** Check out our [testing guidelines](#testing) for more details.
 - **Submit a pull request.** We'll take a look at your work before it gets merged in.
 - **Address any comments or suggestions.** If we have any feedback we'll want to resolve that before a merge.
