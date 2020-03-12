@@ -63,7 +63,7 @@ Parameterized endpoints allow for wildcard-based matching for URLs, and allows p
 
 - All parameters must be in the URL as in the endpoint, but not all parameters in the endpoint must be in the URL. For example, the URL [http://localhost/pets/1/2](http://localhost/pets/1/2) would not match `/pets/{id}/{id2}/{id3}`, because `{id3}` is missing. The `required` attribute in the OpenAPI spec is ignored and is always `required`.
 
-- If there are enough parameters specified to fulfill all parameterizations, then the URL will be matched and the other paths will be optional. For example, the URL "[https://localhost:5001/pet/uploadImage](https://localhost:5001/pet/uploadImage)" matches the endpoint `/pet/**{petId}**/uploadImage` (here, `uploadImage` is used in place of `{petId}`), however `/pet/uploadImage/**test**` does not because `uploadImage` is automatically considered optional but still has to be fully specified or not specified at all; `test` is not exactly equal to an empty string or `uploadImage`.
+- If there are enough parameters specified to fulfill all parameterizations, then the URL will be matched and the other paths will be optional. For example, the URL "[https://localhost:5000/pet/uploadImage](https://localhost:5000/pet/uploadImage)" matches the endpoint `/pet/**{petId}**/uploadImage` (here, `uploadImage` is used in place of `{petId}`), however `/pet/uploadImage/**test**` does not because `uploadImage` is automatically considered optional but still has to be fully specified or not specified at all; `test` is not exactly equal to an empty string or `uploadImage`.
 
 - Here are some examples of how the paths can and cannot match, and which parameterizations are valid in the OpenAPI spec but are not valid for Orbital:
 

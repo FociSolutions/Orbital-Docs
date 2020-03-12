@@ -55,6 +55,8 @@ macOS:
 - the [macOS npm and the NodeJS package manager](https://nodejs.org/en/download/).
 - the Git [installer for macOS](https://git-scm.com/download/mac).
 
+When building from the source, the server will run on port `5001`.
+
 ## Clone
 
 `git clone https://github.com/FociSolutions/Orbital.git`
