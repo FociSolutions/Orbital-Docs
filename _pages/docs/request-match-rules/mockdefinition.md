@@ -28,7 +28,7 @@ The request match rules include [Header rules](./header-rules), [Query rules](./
 
 ### Sample mockdefinition
 
-```JSON
+```json
 {
     "metadata": {
         "title": "mockdefinition",
