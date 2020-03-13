@@ -14,7 +14,7 @@ docs:
         url: /docs/quick-start-guide
       - title: 'Installation'
         url: /docs/installation
-  - title: 'Orbital Request Match Rules'
+  - title: 'Orbital request match rules'
     children:
       - title: 'Header Rules'
         url: /docs/header-rules
@@ -26,9 +26,9 @@ docs:
         url: /docs/body-rules
       - title: 'Policies'
         url: /docs/policies
-  - title: 'Mockdefinition'
+  - title: 'mockdefinition'
     children:
-      - title: 'What is a Mockdefinition?'
+      - title: 'What is a mockdefinition?'
         url: /docs/mockdefinition
   - title: Architecture
     children:

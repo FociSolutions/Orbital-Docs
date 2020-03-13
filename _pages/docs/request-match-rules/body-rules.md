@@ -17,12 +17,12 @@ could match a scenario, including text equality, text contains, JSON contains, a
 When you add a body match rule and response, this allows you to mock out what the response is to requests with
 these chosen body match rules.
 
-After uploading the Mockdefinition to the server using the designer, you can now generate a request with
+After uploading the mockdefinition to the server using the designer, you can now generate a request with
 tools like Postman that will meet the criteria of the scenario.
 
 ### Creating a URL match rule in the Designer
 
-Once a new Mockdefinition is generated, you start at the Endpoint Overview. This displays the available endpoints
+Once a new mockdefinition is generated, you start at the Endpoint Overview. This displays the available endpoints
 along with their verbs, endpoint path and if there are any existing scenarios.
 
 ![Endpoint Overview](../../../assets/images/orbital-ui/endpoint-overview.png)

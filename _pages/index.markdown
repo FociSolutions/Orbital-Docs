@@ -44,7 +44,7 @@ The mockdefinition format is very powerful and easy to use. Here is how the endp
 ```json
 {
    "metadata":{
-      "title":"My Mockdefinition",
+      "title":"My mockdefinition",
       "description":""
    },
    "openApi":{...},

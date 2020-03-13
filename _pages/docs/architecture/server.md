@@ -9,7 +9,7 @@ classes: wide
 
 ## Server
 
-The server provides a way to match scenarios from the list of uploaded Mockdefinitions. The server exposes a list of endpoints which correspond to scenarios within each Mockdefinition. Additionally, the server determines which scenario to execute by matching the incoming request against the list of scenarios, and choosing the most appropriate one.
+The server provides a way to match scenarios from the list of uploaded mockdefinitions. The server exposes a list of endpoints which correspond to scenarios within each mockdefinition. Additionally, the server determines which scenario to execute by matching the incoming request against the list of scenarios, and choosing the most appropriate one.
 
 ![](../../assets/images/server-diagram.png)
 
@@ -23,7 +23,7 @@ All incoming requests' host is the server URL, and the endpoint is appended to t
 
 - The user requests "[_http://localhost:5000/pets/sammy_](http://localhost:5000/pets/sammy)". [http://localhost:5000](http://localhost:5000) is the host of the server.
 
-- The request goes to the server’s middleware, and the middleware determines that it is not the admin endpoint (adding, editing, or deleting a Mockdefinition), and so gathers all scenarios from all uploaded Mockdefinitions. The admin endpoint for the server is `/api/v1/OrbitalAdmin`, and cannot be overridden through an OpenAPI spec or scenario.
+- The request goes to the server’s middleware, and the middleware determines that it is not the admin endpoint (adding, editing, or deleting a mockdefinition), and so gathers all scenarios from all uploaded mockdefinitions. The admin endpoint for the server is `/api/v1/OrbitalAdmin`, and cannot be overridden through an OpenAPI spec or scenario.
 
 - The list of scenarios are passed to the _Message Processor Input._
 
@@ -33,13 +33,13 @@ All incoming requests' host is the server URL, and the endpoint is appended to t
 
 Each endpoint contains zero or more scenarios, and each scenario contains a list of rules which determine when it matches an incoming request.
 
-When creating a new Mockdefinition in the designer, a scenario will be added to all endpoints. This scenario is called a _failsafe_, and will match all incoming requests to that endpoint. This means that there will always be a response for every endpoint. This default scenario can be removed if you wish from the designer to change the behavior. This does not occur when editing the Mockdefinition manually (for example, using a text editor.)
+When creating a new mockdefinition in the designer, a scenario will be added to all endpoints. This scenario is called a _failsafe_, and will match all incoming requests to that endpoint. This means that there will always be a response for every endpoint. This default scenario can be removed if you wish from the designer to change the behavior. This does not occur when editing the mockdefinition manually (for example, using a text editor.)
 
 When a request is received by the server, it has a set of rules which are used to determine which endpoint is matched. These are the rules which determine when a scenario or endpoint is matched:
 
 1.  The client requests an endpoint on the server (for example `/pets/sammy`) when the user navigates to [http://localhost:5000/pets/sammy](http://localhost:5000/pets/sammy). The request URL always begins with a slash.
 
-2.  A Mockdefinition is chosen based on the user's request from the list of Mockdefinitions. See the [Which Mockdefinition is matched?](#which-mockdefinition-is-matched) section for more information. The list of endpoints for the matched Mockdefinition is given to the next step.
+2.  A mockdefinition is chosen based on the user's request from the list of mockdefinitions. See the [Which mockdefinition is matched?](#which-mockdefinition-is-matched) section for more information. The list of endpoints for the matched mockdefinition is given to the next step.
 
 3.  The client’s request is matched against the list of endpoints; the method type must match the chosen endpoint. Additionally, the following rules apply depending on the endpoint type:
 
@@ -184,11 +184,11 @@ URL rules allow for finer-grained matching after an endpoint matches, such as ma
 
 - **Warning: regexes do not have a time limit; be careful when constructing the regexes. It is possible to hang the server if the regex is too complicated or the request input is very long.**
 
-### Which Mockdefinition is matched?
+### Which mockdefinition is matched?
 
-The title of the Mockdefinition that was least recently uploaded will take precedence; this means that if `B` was uploaded before `A`, and if `B` contains a matching endpoint, then `A` won’t be considered (or any others after it.) It is not sorted alphabetically.
+The title of the mockdefinition that was least recently uploaded will take precedence; this means that if `B` was uploaded before `A`, and if `B` contains a matching endpoint, then `A` won’t be considered (or any others after it.) It is not sorted alphabetically.
 
-Here are some examples. `A`, `B`, and `C` are identical Mockdefinitions except the responses are different. `A` and `B` are the names of the Mockdefinitions:
+Here are some examples. `A`, `B`, and `C` are identical mockdefinitions except the responses are different. `A` and `B` are the names of the mockdefinitions:
 
 - If `A` is uploaded and then `B`, `A`’s endpoint matches.
 

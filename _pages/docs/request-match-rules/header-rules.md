@@ -19,7 +19,7 @@ these chosen header rules.
 
 ### Creating a header match rule in the Designer
 
-Once a new Mockdefinition is generated, you start at the Endpoint Overview. This displays the available endpoints
+Once a new mockdefinition is generated, you start at the Endpoint Overview. This displays the available endpoints
 along with their verbs, endpoint path and if there are any existing scenarios.
 
 #### Overview of the endpoints

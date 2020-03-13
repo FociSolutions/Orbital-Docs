@@ -13,7 +13,7 @@ This quick-start guide will show how to make a simple pet store which returns a 
 2. Navigate to [http://localhost:4200](http://localhost:4200) in your browser.
 3. Download [petstore.json](https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/examples/v2.0/json/petstore.json) or use your own sample OpenAPI file.
 4. Click "Create new Mock".
-5. Use `Pet Store Mock` as the Mockdefinition&#39;s title.
+5. Use `Pet Store Mock` as the mockdefinition&#39;s title.
 6. Use `petstore.json` as the OpenAPI file.
 7. Click "Next".
 8. You will be presented with a list of endpoints available in `petstore.json`. Click on "GET /pets".
@@ -37,7 +37,7 @@ This quick-start guide will show how to make a simple pet store which returns a 
 
     d. Click "+" next to the entry.
 
-    e. In "Request Match Rules", remove the "Accept All" match rule in the "URL Match Rules" section. This rule is automatically added to new Mockdefinitions.
+    e. In "request match rules", remove the "Accept All" match rule in the "URL Match Rules" section. This rule is automatically added to new mockdefinitions.
 
     f. Set the response status code to `200`.
 
@@ -45,11 +45,11 @@ This quick-start guide will show how to make a simple pet store which returns a 
 
     h. Click "Save".
 
-11. In order for the Mockdefinition to match requests, it has to be uploaded to the server. Click on "Export Mock to Server" in the left-hand sidebar.
-12. Move the Mockdefinition that you&#39;ve created to the right-hand side using the arrows.
+11. In order for the mockdefinition to match requests, it has to be uploaded to the server. Click on "Export Mock to Server" in the left-hand sidebar.
+12. Move the mockdefinition that you&#39;ve created to the right-hand side using the arrows.
 13. Use [http://localhost:5000/api/v1/OrbitalAdmin](http://localhost:5000/api/v1/OrbitalAdmin) as the server URL.
 14. Click "Upload".
-15. If uploading was successful, it will say that it was successful after a few seconds and move the exported Mockdefinition to the left-hand side.
+15. If uploading was successful, it will say that it was successful after a few seconds and move the exported mockdefinition to the left-hand side.
     a. If it was not successful, ensure that your server is running. For more information, refer to the Installation instructions and ensure that "[http://localhost:5000](http://localhost:5000)" can be accessed in your browser.
 16. Navigate to [http://localhost:5000/pets](http://localhost:5000/pets) in your browser. It should display `No pets found`, as a pet has not been specified.
 17. Navigate to [http://localhost:5000/pets?pet=sammy](http://localhost:5000/pets?pet=sammy) in your browser. It should display `Sammy the cat`.
