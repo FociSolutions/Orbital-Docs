@@ -25,7 +25,7 @@ In order to best maintain Orbital, we have done our best to cover as much code a
 
 It is expected that any code added to the project will not impact the percentage code covered. That means that thorough unit tests will be included with any new code, for both success and failure conditions.
 
-For Orbital Server, we don't unit test our repositories. Repositories should be as thin as possible in creating paths of access to other services, databases, files, etc. By keeping these interactions as simple as possible and pushing logic up to the service level we feel confident in trusting our repository functionality. In cases such as the repositories, where code is not going to be unit tested, the `ExcludeFromCodeCoverage` attribute should be used.
+For Orbital server, we don't unit test our repositories. Repositories should be as thin as possible in creating paths of access to other services, databases, files, etc. By keeping these interactions as simple as possible and pushing logic up to the service level we feel confident in trusting our repository functionality. In cases such as the repositories, where code is not going to be unit tested, the `ExcludeFromCodeCoverage` attribute should be used.
 
 ## Code Standards
 
