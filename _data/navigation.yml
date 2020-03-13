@@ -6,14 +6,6 @@ main:
     url: '/docs/quick-start-guide'
   - title: 'Git'
     url: 'https://github.com/FociSolutions/Orbital'
-  # - title: 'About'
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: 'Sample Posts'
-  #   url: /year-archive/
-  # - title: 'Sample Collections'
-  #   url: /collection-archive/
-  # - title: 'Sitemap'
-  #   url: /sitemap/
 
 docs:
   - title: Getting Started
@@ -22,25 +14,21 @@ docs:
         url: /docs/quick-start-guide
       - title: 'Installation'
         url: /docs/installation
-  - title: 'Mockdefinition'
-    children:
-      - title: 'What is a Mockdefinition?'
-        url: /docs/mockdefinition
-  - title: 'Orbital Request Match Rules'
+  - title: 'Orbital request match rules'
     children:
       - title: 'Header Rules'
-        url: /docs/headersrules
+        url: /docs/header-rules
       - title: 'Query Rules'
-        url: /docs/queryrules
+        url: /docs/query-rules
       - title: 'URL Rules'
-        url: /docs/urlrules
+        url: /docs/url-rules
       - title: 'Body Rules'
-        url: /docs/bodyrules
+        url: /docs/body-rules
       - title: 'Policies'
         url: /docs/policies
-  - title: 'Mockdefinition'
+  - title: 'mockdefinition'
     children:
-      - title: 'What is a Mockdefinition?'
+      - title: 'What is a mockdefinition?'
         url: /docs/mockdefinition
   - title: Architecture
     children:
@@ -49,7 +37,7 @@ docs:
       - title: 'Orbital Server'
         url: /docs/architecture/server
   - title: 'Code of Conduct'
-    url: /docs/code-of-conduct/
+    url: /docs/code-of-conduct
   - title: 'License'
     url: /docs/license
   - title: 'Contributing'
@@ -57,8 +45,8 @@ docs:
   - title: 'Style Guide'
     children:
       - title: 'Orbital Designer'
-        url: /docs/designer_style_guide
+        url: /docs/designer-style-guide
       - title: 'Orbital Server'
-        url: /docs/server_style_guide
+        url: /docs/server-style-guide
   - title: About Us
     url: /docs/about-us

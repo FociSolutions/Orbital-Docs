@@ -1,13 +1,13 @@
 ---
 layout: single
 title: Installation
-permalink: /docs/installation/
+permalink: /docs/installation
 sidebar:
   nav: 'docs'
 classes: wide
 ---
 
-**Note: Orbital uses an in-memory datastore. Please save or export all data (via Download Mockdefinitions or Export Mock to Server) before exiting, otherwise it will be lost.**
+**Note: Orbital uses an in-memory database. Please save or export all data (via Download mockdefinitions or Export Mock to Server) before exiting, otherwise it will be lost.**
 
 It's very easy to get started; just [download the Docker Engine for Linux, Mac, and Windows](https://hub.docker.com/?overlay=onboarding):
 
@@ -17,7 +17,7 @@ It's very easy to get started; just [download the Docker Engine for Linux, Mac, 
 
 `docker run -p 5000:80 focisolutions/orbitalmock`
 
-The mock definition designer will be running on `http://localhost:4200`, and the server on `http://localhost:5000`.
+The designer will be running on `http://localhost:4200`, and the server on `http://localhost:5000`.
 
 ## Using Docker Compose
 
@@ -31,23 +31,31 @@ Install [Docker Compose](https://docs.docker.com/compose/install/)
 
 `docker-compose up -d`
 
-The mock definition designer will be running on `http://localhost:4200`, and the server on `http://localhost:5000`.
+The designer will be running on `http://localhost:4200`, and the server on `http://localhost:5000`.
 
 # Build From the source
 
 ## Requirements
 
-If you're running Linux, you'll need:
+Linux:
 
 - the [Linux .NET 2.2 SDK](https://docs.microsoft.com/dotnet/core/install/linux-package-managers).
 - the [Linux npm and the NodeJS package manager](https://nodejs.org/en/download/package-manager/).
 - git via `apt-get install git`.
 
-If you're running Windows, you'll need:
+Windows:
 
 - the [Windows .NET 2.2 SDK](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-2.2.100-windows-x64-installer).
 - the [Windows npm and the NodeJS package manager](https://nodejs.org/en/download/).
 - the Git [.exe installer for Windows](https://git-scm.com/download/win).
+
+macOS:
+
+- the [macOS .NET 2.2 SDK](https://dotnet.microsoft.com/download).
+- the [macOS npm and the NodeJS package manager](https://nodejs.org/en/download/).
+- the Git [installer for macOS](https://git-scm.com/download/mac).
+
+When building from the source, the server will run on port `5001`.
 
 ## Clone
 
@@ -57,7 +65,7 @@ If you're running Windows, you'll need:
 
 `cd Orbital/src/Orbital.Mock.Server`
 
-`dotnet run` (defaults to http://localhost:5000)
+`dotnet run` (defaults to `http://localhost:5000`)
 
 ## Designer
 
@@ -67,4 +75,4 @@ If you're running Windows, you'll need:
 
 `npm run build`
 
-`npm run start` (defaults to http://localhost:4200)
+`npm run start` (defaults to `http://localhost:4200`)

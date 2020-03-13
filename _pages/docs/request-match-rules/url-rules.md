@@ -1,15 +1,13 @@
 ---
 layout: single
 title: URL Rules
-permalink: /docs/urlrules
+permalink: /docs/url-rules
 sidebar:
   nav: 'docs'
 classes: wide
 ---
 
 ## What are they?
-
-In a mockdefinition file, the scenarios have a series of matching rules, these include URL match rules.
 
 URL match rules are rules that govern the request URL endpoint path property. This allows you to mock out the different
 valid and invalid endpoint path URL values.
@@ -19,39 +17,36 @@ valid and invalid endpoint path URL values.
 When you add a URL match rule and response, this enables you to mock out what the response is to requests with
 these chosen URL match rules.
 
-After uploading the mockdefinition to the server using the Orbital Designer, you can now generate a request with
+After uploading the mockdefinition to the server using the designer, you can now generate a request with
 tools like Postman that will replicate the scenario. Setting the URL endpoint path to match the rule(s) that you
 have created and receiving back the responses mocked out earlier.
 
-### Creating a URL match rule in the Orbital Designer
+### Creating a URL match rule in the Designer
 
 Once a new mockdefinition is generated, you start at the Endpoint Overview. This displays the available endpoints
 along with their verbs, endpoint path and if there are any existing scenarios.
 
 #### Overview of the endpoints
 
-![Endpoint Overview](../../../assets/images/orbital-ui/endpointoverview.png)
+![Endpoint Overview](../../../assets/images/orbital-ui/endpoint-overview.png)
 
 Select the endpoint to add a scenario, or update an existing one. There will be a default scenario to get going.
+The following image shows the default scenario for `/pets`.
 
-#### The default scenario for /pets
-
-![Scenario Overview](../../../assets/images/orbital-ui/scenariooverview.png)
+![Scenario Overview](../../../assets/images/orbital-ui/scenario-overview.png)
 
 #### Adding a URL match rule
 
-![URL Request Match - Request](../../../assets/images/request-match-rules/addingurlmatchrule.png)
+![URL Request Match - Request](../../../assets/images/request-match-rules/adding-url-match-rule.png)
 
-We have added the value of `/pets` and the rule of `Equals`. This
+The image shows the rule value of `/pets` and the rule type of `Equals`. This
 rule will check the request URL endpoint path to ensure they have the same value.
 
 Once a value and rule for the URL match rule has been added, you will need to add a response. The response
 includes the status code, an optional header and the body of the response.
 
-#### Response being populated
+![URL Request Match - Response](../../../assets/images/request-match-rules/adding-url-match-rule-response.png)
 
-![URL Request Match - Response](../../../assets/images/request-match-rules/addingurlmatchruleresponse.png)
+In the response section, the status code is a `200`, and a body has been added for the response.
 
-In the response section, the status code is a `200` and we added a body in the response.
-
-Now click `Save` to save the scenario and head back to the main Scenario Overview page.
+Click "Save" to save the scenario return to the Scenario Overview page.
