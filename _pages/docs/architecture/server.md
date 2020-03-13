@@ -206,4 +206,4 @@ Here are some examples. `A`, `B`, and `C` are identical mockdefinitions except t
 
 ### Definitions
 
-**Equality URL Rules:** `/test/`, `test/`, `//test//test`, `/test` all match the `/test` endpoint. The URL is matched via splitting the slashes and removing the empty entries, then recombining the URL.
+**Equality URL rules:** `/test/`, `test/`, `//test//test`, `/test` all match the `/test` endpoint. The URL is matched via splitting the slashes and removing the empty entries, then recombining the URL.

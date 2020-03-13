@@ -20,7 +20,7 @@ these chosen body match rules.
 After uploading the mockdefinition to the server using the designer, you can now generate a request with
 tools like Postman that will meet the criteria of the scenario.
 
-### Creating a URL match rule in the Designer
+### Creating a URL match rule in the designer
 
 Once a new mockdefinition is generated, you start at the Endpoint Overview. This displays the available endpoints
 along with their verbs, endpoint path and if there are any existing scenarios.

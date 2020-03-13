@@ -15,7 +15,7 @@ The designer is an easy-to-use web-based editor which can create mockdefinitions
 
 ### How it works
 
-The designer is an _SPA_ which runs on Angular. When the user loads a mockdefinition, it is stored in the DesignerStore. Multiple mockdefinitions can be imported from the server simultaneously and will be added to the DesignerStore. The mockdefinitions can be switched in the designer, allowing multiple mockdefinitions to be edited in the same workspace.
+The designer is an _SPA_ which runs on Angular. When the user loads a mockdefinition, it is stored in the designer store. Multiple mockdefinitions can be imported from the server simultaneously and will be added to the designer store. The mockdefinitions can be switched in the designer, allowing multiple mockdefinitions to be edited in the same workspace.
 
 ### Creating a new mockdefinition
 
