@@ -1,6 +1,6 @@
 ---
 layout: single
-title: mockdefinition
+title: Mockdefinition
 permalink: /docs/mockdefinition
 sidebar:
   nav: 'docs'
