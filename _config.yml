@@ -25,6 +25,7 @@ relative_permalinks: false
 title: ''
 # Outputting
 timezone: Canada/Eastern
+title_separator: ' '
 
 include:
   - _pages
