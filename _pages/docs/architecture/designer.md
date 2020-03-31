@@ -37,7 +37,7 @@ Note: when using this feature from the designer, click "Allow this site to downl
 
 ### Deleting from Server
 
-Mockdefinitions stored in the server can be organized through the designer. A single or multiple mockdefinitions can be deleted from the server through this feature. If you have the same mockdefinitions in your client, this feature won't delete them from the designer.
+Mockdefinitions stored in the server can be organized through the designer. A single mockdefinition or multiple mockdefinitions can be deleted from the server through this feature. If you have the same mockdefinitions in your designer, this feature won't delete them from the designer.
 
 ### Components
 
