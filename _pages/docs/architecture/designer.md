@@ -35,6 +35,10 @@ Downloading mockdefinitions allow you to share them with others, or to save them
 
 Note: when using this feature from the designer, click "Allow this site to download multiple files" warning (or a similar warning) as this is required to download multiple mockdefinitions simultaneously.
 
+### Deleting from Server
+
+Mockdefinitions stored in the server can be organized through the designer. A single or multiple mockdefinitions can be deleted from the server through this feature. If you have the same mockdefinitions in your client, this feature won't delete them from the designer.
+
 ### Components
 
 **Designer:** allows creating mockdefinitions using a _web-based_ UI. These can be exported or imported from the server.
