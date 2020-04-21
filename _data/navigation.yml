@@ -26,6 +26,10 @@ docs:
         url: /docs/body-rules
       - title: 'Policies'
         url: /docs/policies
+  - title: 'Orbital response rules'
+    children:
+      - title: 'Templated responses'
+        url: /docs/templated-responses
   - title: 'mockdefinition'
     children:
       - title: 'What is a mockdefinition?'
