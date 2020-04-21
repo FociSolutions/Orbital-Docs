@@ -28,6 +28,8 @@ The server will respond with a rant review string. When composing a templated sc
 
 In order to use templated responses, the request's body must be valid JSON, the syntax must be valid, the response must be marked as a templated response, and all referenced keys must exist in order to use templated responses. If at least one of these requirements are violated, a `400 Bad Request` will be returned.
 
+### How to use the request body in a templated response
+
 When referencing a JSON key in the request body which is...
 - a string or integer, then the templated response will return that value as-is. For example, `"\{\{request.a\}\}"` will return "abc" (without quotes) if the request's body is \{"a":"abc"\}
 
