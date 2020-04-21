@@ -28,7 +28,7 @@ docs:
         url: /docs/policies
   - title: 'Orbital response rules'
     children:
-      - title: 'Templated responses'
+      - title: 'Orbital response types'
         url: /docs/templated-responses
   - title: 'mockdefinition'
     children:
