@@ -22,13 +22,11 @@ Templated responses allow responses to be dynamically created from the response'
 
 Figure 1. Adding a new templated rule. Note the checkmark next to "Templated".
 
-The server will respond with a rant review string generated from the faker API. When composing a templated scenario body, the body can contain multiple templated responses, such as "\{\{rant.reviews\}\} \{\{person.first\_name\}\}", and can contain text between and around the templates: "\{\{rant.reviews\}\} abc \{\{person.first\_name\}\}". These templates can also be nested inside of JSON. For example, \{"key":"\{\{person.first\_name\}\}"\}.
-
-All other Scriban operators, for example `string.truncate`, are supported. For example, "\{\{rant.reviews \| string.truncate 6\}\}" returns "The...". To learn more about Scriban, see [https://github.com/lunet-io/scriban](https://github.com/lunet-io/scriban).
+The server will respond with a rant review string. When composing a templated scenario body, the body can contain multiple templated responses, such as "\{\{rant.reviews\}\} \{\{person.first\_name\}\}", and can contain text between and around the templates: "\{\{rant.reviews\}\} abc \{\{person.first\_name\}\}". These templates can also be nested inside of JSON. For example, \{"key":"\{\{person.first\_name\}\}"\}.
 
 ### How do templated responses behave?
 
-In order to use templated responses, the request's body must be valid JSON, the Scriban syntax must be valid, the response must be marked as a templated response, and all referenced keys must exist in order to use templated responses. If at least one of these requirements are violated, a `400 Bad Request` will be returned.
+In order to use templated responses, the request's body must be valid JSON, the syntax must be valid, the response must be marked as a templated response, and all referenced keys must exist in order to use templated responses. If at least one of these requirements are violated, a `400 Bad Request` will be returned.
 
 When referencing a JSON key in the request body which is...
 - a string or integer, then the templated response will return that value as-is. For example, `"\{\{request.a\}\}"` will return "abc" (without quotes) if the request's body is \{"a":"abc"\}
@@ -39,4 +37,4 @@ When referencing a JSON key in the request body which is...
 
 - an array, for example "\{\{request.a\}\}" with the request body \{"a":[1,2,3,4,"a"]\}, the response would be "[1, 2, 3, 4, a]" even if the elements are quoted.
 
-Orbital supports many faker methods. For examples of which faker methods Orbital supports, see the \*.cs files in the [Functions](https://github.com/FociSolutions/Orbital/tree/master/src/Orbital.Mock.Server/Functions) folder. Note: the method names are dynamically converted from CamelCase to snake\_case.
+For examples of which templated responses Orbital supports, see the \*.cs files in the [Functions](https://github.com/FociSolutions/Orbital/tree/master/src/Orbital.Mock.Server/Functions) folder. Note: the method names are dynamically converted from CamelCase to snake\_case.
