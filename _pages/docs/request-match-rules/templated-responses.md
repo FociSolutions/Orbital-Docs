@@ -7,7 +7,7 @@ sidebar:
 classes: wide
 ---
 
-Templated responses allow responses to be dynamically created by using Scriban's liquid template API. The responses can be derived from the response's body, and/or a random value using the [faker](https://github.com/bchavez/Bogus) API.
+Templated responses allow responses to be dynamically created from the response's body, and/or a random value.
 
 ### How do I add a templated response?
 
