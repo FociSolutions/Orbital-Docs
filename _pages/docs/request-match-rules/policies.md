@@ -3,7 +3,7 @@ layout: single
 title: Policies
 permalink: /docs/policies
 sidebar:
-  nav: 'docs'
+  nav: "docs"
 classes: wide
 ---
 

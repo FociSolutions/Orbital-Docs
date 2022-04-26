@@ -3,7 +3,7 @@ layout: single
 title: Orbital Server Style Guide
 permalink: /docs/server-style-guide
 sidebar:
-  nav: 'docs'
+  nav: "docs"
 classes: wide
 ---
 
@@ -49,10 +49,10 @@ Good layout uses formatting to emphasize the structure of the code and makes the
 - Use parentheses to make clauses in an expression separate, as shown in the following code:
 
 ```csharp
-            if ((val1 > val2) && (val1 > val3))
-            {
-                // do something
-            }
+if ((val1 > val2) && (val1 > val3))
+{
+  // do something
+}
 ```
 
 ## Commenting Conventions
@@ -60,12 +60,12 @@ Good layout uses formatting to emphasize the structure of the code and makes the
 - Please use XML Documentation; for more information, visit the [How-To Guide](https://docs.microsoft.com/en-us/dotnet/articles/csharp/programming-guide/xmldoc/how-to-use-the-xml-documentation-features). In short, enter `///` followed by any XML tags or text strings, which will auto-expand into a comment block when using Visual Studio and other major IDEs. For example:
 
 ```csharp
-            ///<summary>
-            ///Summary description
-            ///</summary>
-            ///<remarks>
-            ///This is a sample.
-            ///</remarks>
+///<summary>
+///Summary description
+///</summary>
+///<remarks>
+///This is a sample.
+///</remarks>
 ```
 
 - Place the comment on a separate line, not at the end of a line of code.
@@ -73,8 +73,8 @@ Good layout uses formatting to emphasize the structure of the code and makes the
 - Insert one space between the comment delimiter (`//`) and the comment text, as shown in the following example:
 
 ```csharp
-            // The following declaration calls a job. It does not run
-            // the job logic.
+// The following declaration calls a job. It does not run
+// the job logic.
 ```
 
 - Do not create formatted blocks of asterisks around comments.
@@ -86,17 +86,17 @@ We've only included commonly used guidelines here.
 - Use `implicit typing` for local variables when the type of the variable is obvious from the right side of the assignment, or when the precise type is not important. When dealing with primitive types (`int`, `string`, `double`, etc.) use predefined names.
 
 ```csharp
-            // Example where the type of a variable is clear from the context.
-            var list = new List<string>();
+// Example where the type of a variable is clear from the context.
+var list = new List<string>();
 
-            // Exceptions
-           int index = 100;
+// Exceptions
+int index = 100;
 ```
 
 - Try to use variable names which not only reflect the use of the variable, but also the type.
 
 ```csharp
-            var selectedCustomer = CustomerService.SelectCustomer(customerId);
+var selectedCustomer = CustomerService.SelectCustomer(customerId);
 ```
 
 - Use `implicit typing` to determine the type of the loop variable in `for` and `foreach` loops.
@@ -104,26 +104,26 @@ We've only included commonly used guidelines here.
 The following example uses `implicit typing` in a `for` statement:
 
 ```csharp
-            var syllable = "ha";
-            var laugh = "";
-            for (var i = 0; i < 10; i++)
-            {
-                laugh += syllable;
-                Console.WriteLine(laugh);
-            }
+var syllable = "ha";
+var laugh = "";
+for (var i = 0; i < 10; i++)
+{
+  laugh += syllable;
+  Console.WriteLine(laugh);
+}
 ```
 
 The following example uses `implicit typing` in a `foreach` statement:
 
 ```csharp
-            foreach (var ch in laugh)
-            {
-                if (ch == 'h')
-                    Console.Write("H");
-                else
-                    Console.Write(ch);
-            }
-            Console.WriteLine();
+foreach (var ch in laugh)
+{
+  if (ch == 'h')
+    Console.Write("H");
+  else
+    Console.Write(ch);
+}
+Console.WriteLine();
 ```
 
 ## Coding Style
@@ -140,16 +140,16 @@ Everyone has hers or his own coding style. Going back to our guiding principle, 
 - Place namespace `using` statements together at the top of file. Group .NET namespaces above custom namespaces.
 - Keep lambda statements tidy. If they have more than two `.`, then indent and use multiple lines. Avoid nested lambdas if possible.
 - Group internal `class` implementations by type in the following order:
-  1.               Member variables.
-  2.               Constructors & Finalizers.
-  3.               Nested Enums, Structs, and Classes.
-  4.               Properties.
-  5.               Methods.
-  6.               Sequence declarations within type groups based upon access modifier and visibility:
-  - Public.
-  - Protected.
-  - Internal.
-  - Private.
+  1. Member variables.
+  2. Constructors & Finalizers.
+  3. Nested Enums, Structs, and Classes.
+  4. Properties.
+  5. Methods.
+  6. Sequence declarations within type groups based upon access modifier and visibility:
+     - Public.
+     - Protected.
+     - Internal.
+     - Private.
 - Use `#region` statements to group implementations and code when applicable.
 - Indent code within brackets.
 - Use white space (tabs, line breaks, etc) liberally to separate and organize code.
@@ -163,45 +163,45 @@ Everyone has hers or his own coding style. Going back to our guiding principle, 
 - Do not explicitly specify a type of an `enum` or values of `enum`s:
 
 ```csharp
-            // Bad!
-           public enum Direction : long
-           {
-               North = 1,
-               East,
-               South,
-               West
-           }
+// Bad!
+public enum Direction : long
+{
+  North = 1,
+  East,
+  South,
+  West
+}
 
-           // Good!
-           public enum Direction
-           {
-               North = 1,
-               East,
-               South,
-               West
-           }
+// Good!
+public enum Direction
+{
+  North = 1,
+  East,
+  South,
+  West
+}
 ```
 
 - Do not suffix `enum` names with `Enum`:
 
 ```csharp
-           // Bad!
-           public enum CoinEnum
-           {
-               Penny,
-               Nickel,
-               Dime,
-               Quarter,
-               Dollar
-           }
+// Bad!
+public enum CoinEnum
+{
+  Penny,
+  Nickel,
+  Dime,
+  Quarter,
+  Dollar
+}
 
-           // Good!
-           public enum Coin
-           {
-               Penny,
-               Nickel,
-               Dime,
-               Quarter,
-               Dollar
-           }
+// Good!
+public enum Coin
+{
+  Penny,
+  Nickel,
+  Dime,
+  Quarter,
+  Dollar
+}
 ```

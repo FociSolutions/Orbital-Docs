@@ -3,7 +3,7 @@ layout: single
 title: Architecture of Orbital's Designer
 permalink: /docs/architecture/designer
 sidebar:
-  nav: 'docs'
+  nav: "docs"
 classes: wide
 ---
 

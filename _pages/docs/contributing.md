@@ -3,7 +3,7 @@ layout: single
 title: Contributing
 permalink: /docs/contributing
 sidebar:
-  nav: 'docs'
+  nav: "docs"
 classes: wide
 ---
 

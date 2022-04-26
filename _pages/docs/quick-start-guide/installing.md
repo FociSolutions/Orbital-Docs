@@ -3,7 +3,7 @@ layout: single
 title: Installation
 permalink: /docs/installation
 sidebar:
-  nav: 'docs'
+  nav: "docs"
 classes: wide
 ---
 

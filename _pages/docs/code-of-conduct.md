@@ -3,7 +3,7 @@ layout: single
 title: Code of Conduct
 permalink: /docs/code-of-conduct
 sidebar:
-  nav: 'docs'
+  nav: "docs"
 classes: wide
 ---
 

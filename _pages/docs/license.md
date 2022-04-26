@@ -3,7 +3,7 @@ layout: single
 title: License
 permalink: /docs/license
 sidebar:
-  nav: 'docs'
+  nav: "docs"
 classes: wide
 ---
 

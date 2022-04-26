@@ -3,7 +3,7 @@ layout: single
 title: Header Match Rules
 permalink: /docs/header-rules
 sidebar:
-  nav: 'docs'
+  nav: "docs"
 classes: wide
 ---
 

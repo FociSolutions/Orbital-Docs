@@ -3,7 +3,7 @@ layout: single
 title: Architecture of Orbital's Server
 permalink: /docs/architecture/server
 sidebar:
-  nav: 'docs'
+  nav: "docs"
 classes: wide
 ---
 
@@ -178,11 +178,11 @@ URL rules allow for finer-grained matching after an endpoint matches, such as ma
 
 - Cannot inherit parameterization, but endpoints can. For example, if the endpoint is `/pets/{petId}`, then specifying `{petId}` in the URL rule will not match it and would be treated as a string literal.
 
-- Must use a valid `C`\# regex when matching with regexes. For example, `\\d{0,9}` to match a digit (without quotes).
+- Must use a valid `C`\# regex when matching with regex patterns. For example, `\\d{0,9}` to match a digit (without quotes).
 
 - If the URL rule does not match the endpoint or is not partially composed of the endpoint, then it could cause the scenario to never match any request. For example, it is possible to have a valid URL rule, but it is impossible for the scenario to match. An example of this is any URL rule whose first character is not equal to the first character of the endpoint’s URL, and the endpoint’s URL is an equality rule. The URL match rules run after the endpoint has been matched.
 
-- **Warning: regexes do not have a time limit; be careful when constructing the regexes. It is possible to hang the server if the regex is too complicated or the request input is very long.**
+- **Warning: regex patterns do not have a time limit; be careful when constructing the regex pattern. It is possible to hang the server if the regex is too complicated or the request input is very long.**
 
 ### Which mockdefinition is matched?
 

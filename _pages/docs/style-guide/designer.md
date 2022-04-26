@@ -3,7 +3,7 @@ layout: single
 title: Orbital Designer Style Guide
 permalink: /docs/designer-style-guide
 sidebar:
-  nav: 'docs'
+  nav: "docs"
 classes: wide
 ---
 
