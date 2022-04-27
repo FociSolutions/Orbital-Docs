@@ -17,14 +17,18 @@ This quick-start guide will show how to make a simple pet store which returns a 
 6. Use `petstore.json` as the OpenAPI file.
 7. Click "Next".
 8. You will be presented with a list of endpoints available in `petstore.json`. Click on "GET /pets".
-9. In order for the mockdefinition to match requests, it has to be uploaded to the server. Click on "Export Mock to Server" in the left-hand sidebar.
-10. Move the mockdefinition that you&#39;ve created to the right-hand side using the arrows.
-11. Use [http://localhost:5000/api/v1/OrbitalAdmin](http://localhost:5000/api/v1/OrbitalAdmin) as the server URL.
-12. Click "Upload".
-13. If uploading was successful, it will say that it was successful after a few seconds and move the exported mockdefinition to the left-hand side.
-    a. If it was not successful, ensure that your server is running. For more information, refer to the Installation instructions and ensure that "[http://localhost:5000](http://localhost:5000)" can be accessed in your browser.
-14. Navigate to [http://localhost:5000/pets](http://localhost:5000/pets) in your browser. It should display `No pets found`, as a pet has not been specified.
-15. Navigate to [http://localhost:5000/pets?pet=sammy](http://localhost:5000/pets?pet=sammy) in your browser. It should display `Sammy the cat`.
+9. Activate the completed mock definition by Exporting it to the server
+
+   Click on "Export Mock to Server" in the left-hand sidebar.
+
+   ![Export to Server Menu Item](../../../assets/images/orbital-ui/export-to-server.png)
+
+   The default server url is [http://localhost:5000/api/v1/OrbitalAdmin](http://localhost:5000/api/v1/OrbitalAdmin). Move the mockdefinition that you&#39;ve created to the right-hand side using the arrows and click "Upload". If there is an error, ensure that the server is running by accessing "[http://localhost:5000](http://localhost:5000)" in your browser; if it's not running refer to the [Installation Instructions](/docs/installation) to set it up.
+
+   ![Export to Server Form](../../../assets/images/orbital-ui/export-to-server-modal.png)
+
+10. Navigate to [http://localhost:5000/pets](http://localhost:5000/pets) in your browser. It should display `No pets found`, as a pet has not been specified.
+11. Navigate to [http://localhost:5000/pets?pet=sammy](http://localhost:5000/pets?pet=sammy) in your browser. It should display `Sammy the cat`.
 
 Congratulations! You have created your very first Orbital Mock. Feel free to edit the example or use a different OpenAPI spec to match different types of requests.
 
