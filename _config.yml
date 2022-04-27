@@ -22,10 +22,10 @@ github_username: FociSolutions
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 relative_permalinks: false
-title: ""
+title: "Orbital"
 # Outputting
 timezone: Canada/Eastern
-title_separator: " "
+title_separator: " | "
 
 include:
   - _pages
