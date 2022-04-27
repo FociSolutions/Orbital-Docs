@@ -23,7 +23,7 @@ This quick-start guide will show how to make a simple pet store which returns a 
 
    ![Export to Server Menu Item](../../../assets/images/orbital-ui/export-to-server.png)
 
-   The default server url is <http://localhost:5000/api/v1/OrbitalAdmin>. Move the mockdefinition that you&#39;ve created to the right-hand side using the arrows and click "Upload". If there is an error, ensure that the server is running by accessing "<http://localhost:5000>" in your browser; if it's not running refer to the [Installation Instructions](/docs/installation) to set it up.
+   The default server url is <http://localhost:5000/api/v1/OrbitalAdmin>. Select the mockdefinition that you&#39;ve created and click the right arrow `>` to move it to the right-hand side, then click "Upload". If there is an error, ensure that the server is running by accessing <http://localhost:5000> in your browser; if it's not running, refer to the [Installation Instructions](/docs/installation) to set it up.
 
    ![Export to Server Form](../../../assets/images/orbital-ui/export-to-server-modal.png)
 
