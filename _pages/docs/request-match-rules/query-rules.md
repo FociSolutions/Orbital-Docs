@@ -3,7 +3,7 @@ layout: single
 title: Query Rules
 permalink: /docs/query-rules
 sidebar:
-  nav: 'docs'
+  nav: "docs"
 classes: wide
 ---
 

@@ -1,0 +1,32 @@
+{
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "cSpell.words": [
+    "Finalizers",
+    "focisolutions",
+    "mockdefinition",
+    "mockdefinitions",
+    "orbitaldesigner",
+    "orbitalmock",
+    "parameterizations",
+    "petstore",
+    "Struct",
+    "Structs",
+    "Templating",
+    "Xunit"
+  ]
+}

@@ -3,7 +3,7 @@ layout: single
 title: About Us
 permalink: /docs/about-us/
 sidebar:
-  nav: 'docs'
+  nav: "docs"
 classes: wide
 ---
 
@@ -16,8 +16,6 @@ when testing an application, recreating failure cases that are very specific or 
 Having previously worked on various API based projects it was clear we could speed up the process of development by working
 against a mocked API that doesn't exist yet. Or better yet, testing edge cases that are difficult to produce under normal circumstances by mocking them out. How will your application react?
 
-
- Orbital is a mocking tool that enables enables rapid _microservice_ development and testing. Orbital supports mocking
- services by using the OpenAPI specification files in both YAML and JSON.
- Orbital allows for parallel development between front-end and back-end teams by reducing the dependency between each other. This reduces idle time and creates a more flexible and dynamic development workspace.
-
+Orbital is a mocking tool that enables rapid _microservice_ development and testing. Orbital supports mocking
+services by using the OpenAPI specification files in both YAML and JSON.
+Orbital allows for parallel development between front-end and back-end teams by reducing the dependency between each other. This reduces idle time and creates a more flexible and dynamic development workspace.

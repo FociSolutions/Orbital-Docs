@@ -3,7 +3,7 @@ layout: single
 title: URL Rules
 permalink: /docs/url-rules
 sidebar:
-  nav: 'docs'
+  nav: "docs"
 classes: wide
 ---
 
