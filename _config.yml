@@ -23,6 +23,8 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 relative_permalinks: false
 title: "Orbital"
+# Remove masthead title since the logo contains the title text
+masthead_title: ""
 # Outputting
 timezone: Canada/Eastern
 title_separator: " | "
