@@ -13,11 +13,11 @@ This quick-start guide will show how to make a simple pet store which returns a 
 2. Navigate to [http://localhost:4200](http://localhost:4200) in your browser.
 3. Download [petstore.json](https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/examples/v2.0/json/petstore.json) or use your own sample OpenAPI file.
 4. Click "Create new Mock".
-5. Use `Pet Store Mock` as the mockdefinition&#39;s title.
-6. Use `petstore.json` as the OpenAPI file.
-7. Click "Next".
-8. You will be presented with a list of endpoints available in `petstore.json`. Click on "GET /pets".
-9. Activate the completed mock definition by Exporting it to the server
+
+   ![Export to Server Menu Item](../../../assets/images/orbital-ui/create-new-mock.png)
+
+5. You will be presented with a list of endpoints available in `petstore.json`. Click on "GET /pets".
+6. Activate the completed mock definition by Exporting it to the server
 
    Click on "Export Mock to Server" in the left-hand sidebar.
 
@@ -27,8 +27,8 @@ This quick-start guide will show how to make a simple pet store which returns a 
 
    ![Export to Server Form](../../../assets/images/orbital-ui/export-to-server-modal.png)
 
-10. Navigate to [http://localhost:5000/pets](http://localhost:5000/pets) in your browser. It should display `No pets found`, as a pet has not been specified.
-11. Navigate to [http://localhost:5000/pets?pet=sammy](http://localhost:5000/pets?pet=sammy) in your browser. It should display `Sammy the cat`.
+7. Navigate to [http://localhost:5000/pets](http://localhost:5000/pets) in your browser. It should display `No pets found`, as a pet has not been specified.
+8. Navigate to [http://localhost:5000/pets?pet=sammy](http://localhost:5000/pets?pet=sammy) in your browser. It should display `Sammy the cat`.
 
 Congratulations! You have created your very first Orbital Mock. Feel free to edit the example or use a different OpenAPI spec to match different types of requests.
 
