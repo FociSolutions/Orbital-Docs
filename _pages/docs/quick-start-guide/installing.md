@@ -28,13 +28,13 @@ Create a docker-compose.yml file with the following contents:
 ```yaml
 services:
   designer:
-    # Build Orbital Designer
+    # Pull Orbital Designer
     image: focisolutions/orbitaldesigner
     ports:
       - "4200:80"
 
   mock:
-    # Build Orbital Mock Server
+    # Pull Orbital Mock Server
     image: focisolutions/orbitalmock
     ports:
       - "5000:80"
