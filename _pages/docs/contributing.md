@@ -21,7 +21,7 @@ You can always reach out to us by contacting the project team at [opensource@foc
 
 ## Testing
 
-In order to best maintain Orbital, we have done our best to cover as much code as possible with unit tests. Our testing framework of choice is Xunit and Jasmine. If you're not familiar with them already, we suggest you check out the documentation at their site here: [https://xunit.github.io/](https://xunit.github.io/) and [https://jasmine.github.io/](https://jasmine.github.io/).
+In order to best maintain Orbital, we have done our best to cover as much code as possible with unit tests. Our testing framework of choice is xUnit (Orbital Server) and Jest (Orbital Designer). If you're not familiar with them already, we suggest you check out the documentation at their respective sites here: [xUnit](https://github.com/xunit/xunit) and [Jest](https://github.com/facebook/jest).
 
 It is expected that any code added to the project will not impact the percentage code covered. That means that thorough unit tests will be included with any new code, for both success and failure conditions.
 
