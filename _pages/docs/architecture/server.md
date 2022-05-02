@@ -21,7 +21,7 @@ All incoming requests' host is the server URL, and the endpoint is appended to t
 
 ### Sample message flow
 
-- The user requests "[_http://localhost:5000/pets/sammy_](http://localhost:5000/pets/sammy)". [http://localhost:5000](http://localhost:5000) is the host of the server.
+- The user requests "[_http://localhost:5000/pets/sammy_](http://localhost:5000/pets/sammy)". <http://localhost:5000> is the host of the server.
 
 - The request goes to the server’s middleware, and the middleware determines that it is not the admin endpoint (adding, editing, or deleting a mockdefinition), and so gathers all scenarios from all uploaded mockdefinitions. The admin endpoint for the server is `/api/v1/OrbitalAdmin`, and cannot be overridden through an OpenAPI spec or scenario.
 
@@ -37,7 +37,7 @@ When creating a new mockdefinition in the designer, a scenario will be added to 
 
 When a request is received by the server, it has a set of rules which are used to determine which endpoint is matched. These are the rules which determine when a scenario or endpoint is matched:
 
-1.  The client requests an endpoint on the server (for example `/pets/sammy`) when the user navigates to [http://localhost:5000/pets/sammy](http://localhost:5000/pets/sammy). The request URL always begins with a slash.
+1.  The client requests an endpoint on the server (for example `/pets/sammy`) when the user navigates to <http://localhost:5000/pets/sammy>. The request URL always begins with a slash.
 
 2.  A mockdefinition is chosen based on the user's request from the list of mockdefinitions. See the [Which mockdefinition is matched?](#which-mockdefinition-is-matched) section for more information. The list of endpoints for the matched mockdefinition is given to the next step.
 
@@ -61,9 +61,9 @@ When a request is received by the server, it has a set of rules which are used t
 
 Parameterized endpoints allow for wildcard-based matching for URLs, and allows parts of the URL to be substituted dynamically. However, Orbital does not implement 100% of the OpenAPI spec so not all of OpenAPI's parameterized endpoints will work as expected. Additionally, there are some modifications to the default behavior of how endpoints match which are different than how the OpenAPI spec suggests. These differences (and how endpoints are matched) are as follows:
 
-- All parameters must be in the URL as in the endpoint, but not all parameters in the endpoint must be in the URL. For example, the URL [http://localhost/pets/1/2](http://localhost/pets/1/2) would not match `/pets/{id}/{id2}/{id3}`, because `{id3}` is missing. The `required` attribute in the OpenAPI spec is ignored and is always `required`.
+- All parameters must be in the URL as in the endpoint, but not all parameters in the endpoint must be in the URL. For example, the URL <http://localhost/pets/1/2> would not match `/pets/{id}/{id2}/{id3}`, because `{id3}` is missing. The `required` attribute in the OpenAPI spec is ignored and is always `required`.
 
-- If there are enough parameters specified to fulfill all parameterizations, then the URL will be matched and the other paths will be optional. For example, the URL "[https://localhost:5000/pet/uploadImage](https://localhost:5000/pet/uploadImage)" matches the endpoint `/pet/**{petId}**/uploadImage` (here, `uploadImage` is used in place of `{petId}`), however `/pet/uploadImage/**test**` does not because `uploadImage` is automatically considered optional but still has to be fully specified or not specified at all; `test` is not exactly equal to an empty string or `uploadImage`.
+- If there are enough parameters specified to fulfill all parameterizations, then the URL will be matched and the other paths will be optional. For example, the URL "<http://localhost:5000/pet/uploadImage>" matches the endpoint `/pet/**{petId}**/uploadImage` (here, `uploadImage` is used in place of `{petId}`), however `/pet/uploadImage/**test**` does not because `uploadImage` is automatically considered optional but still has to be fully specified or not specified at all; `test` is not exactly equal to an empty string or `uploadImage`.
 
 - Here are some examples of how the paths can and cannot match, and which parameterizations are valid in the OpenAPI spec but are not valid for Orbital:
 
