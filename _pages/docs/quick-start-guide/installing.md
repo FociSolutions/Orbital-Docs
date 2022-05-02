@@ -17,7 +17,7 @@ It's very easy to get started; just [download the Docker Engine for Linux, Mac, 
 
 `docker run -p 5000:80 focisolutions/orbitalmock`
 
-The designer will be running on [http://localhost:4200](http://localhost:4200), and the server on [http://localhost:5000](http://localhost:5000).
+The designer will be running on <http://localhost:4200>, and the server on <http://localhost:5000>.
 
 ## Using Docker Compose
 
