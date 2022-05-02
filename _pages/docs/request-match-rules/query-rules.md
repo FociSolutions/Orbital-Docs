@@ -41,7 +41,7 @@ Select the endpoint to add a scenario, or update an existing one. The following 
 
 ![Query Request Match - Request](../../../assets/images/request-match-rules/adding-query-match-rule.png)
 
-The image shows the key value pair of `Search` and `Orbital` (which will match `https://localhost:5000/?Search=Orbital`)
+The image shows the key value pair of `Search` and `Orbital` (which will match `http://localhost:5000/?Search=Orbital`)
 with the rule of `Equals`. This rule will check request query parameters to ensure they have the correct key and value.
 
 Once a key and a value of the request have been added, you will need to add a response. The response includes

@@ -17,7 +17,7 @@ It's very easy to get started; just [download the Docker Engine for Linux, Mac, 
 
 `docker run -p 5000:80 focisolutions/orbitalmock`
 
-The designer will be running on `http://localhost:4200`, and the server on `http://localhost:5000`.
+The designer will be running on <http://localhost:4200>, and the server on <http://localhost:5000>.
 
 ## Using Docker Compose
 
@@ -31,7 +31,7 @@ Install [Docker Compose](https://docs.docker.com/compose/install/)
 
 `docker-compose up -d`
 
-The designer will be running on `http://localhost:4200`, and the server on `http://localhost:5000`.
+The designer will be running on <http://localhost:4200>, and the server on <http://localhost:5000>.
 
 # Build From the source
 
@@ -39,23 +39,22 @@ The designer will be running on `http://localhost:4200`, and the server on `http
 
 Linux:
 
-- the [Linux .NET 2.2 SDK](https://docs.microsoft.com/dotnet/core/install/linux-package-managers).
+- the [Linux .NET 5.0 SDK](https://docs.microsoft.com/dotnet/core/install/linux-package-managers).
 - the [Linux npm and the NodeJS package manager](https://nodejs.org/en/download/package-manager/).
 - git via `apt-get install git`.
 
 Windows:
 
-- the [Windows .NET 2.2 SDK](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-2.2.100-windows-x64-installer).
+- the [Windows .NET 5.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-5.0.407-windows-x64-installer).
 - the [Windows npm and the NodeJS package manager](https://nodejs.org/en/download/).
 - the Git [.exe installer for Windows](https://git-scm.com/download/win).
 
 macOS:
 
-- the [macOS .NET 2.2 SDK](https://dotnet.microsoft.com/download).
+- the [macOS .NET 5.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-5.0.407-macos-x64-installer).
 - the [macOS npm and the NodeJS package manager](https://nodejs.org/en/download/).
 - the Git [installer for macOS](https://git-scm.com/download/mac).
 
-When building from the source, the server will run on port `5001`.
 
 ## Clone
 
@@ -65,7 +64,7 @@ When building from the source, the server will run on port `5001`.
 
 `cd Orbital/src/Orbital.Mock.Server`
 
-`dotnet run` (defaults to `http://localhost:5000`)
+`dotnet run` (defaults to <http://localhost:5000> and <https://localhost:5001>)
 
 ## Designer
 
@@ -75,4 +74,4 @@ When building from the source, the server will run on port `5001`.
 
 `npm run build`
 
-`npm run start` (defaults to `http://localhost:4200`)
+`npm run start` (defaults to <http://localhost:4200>)
