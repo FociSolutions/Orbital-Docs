@@ -17,7 +17,7 @@ It's very easy to get started; just [download the Docker Engine for Linux, Mac, 
 
 `docker run -p 5000:80 focisolutions/orbitalmock`
 
-The designer will be running on `http://localhost:4200`, and the server on `http://localhost:5000`.
+The designer will be running on [http://localhost:4200](http://localhost:4200), and the server on [http://localhost:5000](http://localhost:5000).
 
 ## Using Docker Compose
 
@@ -31,7 +31,7 @@ Install [Docker Compose](https://docs.docker.com/compose/install/)
 
 `docker-compose up -d`
 
-The designer will be running on `http://localhost:4200`, and the server on `http://localhost:5000`.
+The designer will be running on [http://localhost:4200](http://localhost:4200), and the server on [http://localhost:5000](http://localhost:5000).
 
 # Build From the source
 
@@ -55,7 +55,6 @@ macOS:
 - the [macOS npm and the NodeJS package manager](https://nodejs.org/en/download/).
 - the Git [installer for macOS](https://git-scm.com/download/mac).
 
-When building from the source, the server will run on port `5001`.
 
 ## Clone
 
@@ -65,7 +64,7 @@ When building from the source, the server will run on port `5001`.
 
 `cd Orbital/src/Orbital.Mock.Server`
 
-`dotnet run` (defaults to `http://localhost:5000`)
+`dotnet run` (defaults to [http://localhost:5000](http://localhost:5000) and [https://localhost:5001](https://localhost:5001))
 
 ## Designer
 
@@ -75,4 +74,4 @@ When building from the source, the server will run on port `5001`.
 
 `npm run build`
 
-`npm run start` (defaults to `http://localhost:4200`)
+`npm run start` (defaults to [http://localhost:4200](http://localhost:4200))

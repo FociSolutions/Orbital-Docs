@@ -174,7 +174,7 @@ The response selector chooses which scenario matches the incoming request. It us
 
 URL rules allow for finer-grained matching after an endpoint matches, such as matching digits or other text by using a regex. This behavior can be used to augment the OpenAPI spec's functionality. These are how the URL rules are matched:
 
-- Match everything after the host name. For example, [\*http://localhost**/sammy/pets\***](http://localhost/sammy/pets)**,** including the leading `/`.
+- Match everything after the host name. For example, [http://localhost:5000**/pets/sammy**](http://localhost:5000/pets/sammy), including the leading `/`.
 
 - Cannot inherit parameterization, but endpoints can. For example, if the endpoint is `/pets/{petId}`, then specifying `{petId}` in the URL rule will not match it and would be treated as a string literal.
 
