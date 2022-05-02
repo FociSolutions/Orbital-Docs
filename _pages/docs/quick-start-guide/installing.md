@@ -23,13 +23,26 @@ The designer will be running on <http://localhost:4200>, and the server on <http
 
 Install [Docker Compose](https://docs.docker.com/compose/install/)
 
-`git clone https://github.com/FociSolutions/Orbital.git`
+Create a docker-compose.yml file with the following contents:
 
-`cd Orbital`
+```yaml
+services:
+  designer:
+    # Build Orbital Designer
+    image: focisolutions/orbitaldesigner
+    ports:
+      - "4200:80"
 
-`docker-compose build`
+  mock:
+    # Build Orbital Mock Server
+    image: focisolutions/orbitalmock
+    ports:
+      - "5000:80"
+```
 
-`docker-compose up -d`
+To start Orbital run:
+
+`docker compose up`
 
 The designer will be running on <http://localhost:4200>, and the server on <http://localhost:5000>.
 
@@ -54,7 +67,6 @@ macOS:
 - the [macOS .NET 5.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-5.0.407-macos-x64-installer).
 - the [macOS npm and the NodeJS package manager](https://nodejs.org/en/download/).
 - the Git [installer for macOS](https://git-scm.com/download/mac).
-
 
 ## Clone
 
