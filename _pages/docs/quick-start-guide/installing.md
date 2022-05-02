@@ -9,7 +9,7 @@ classes: wide
 
 **Note: Orbital uses an in-memory database. Please save or export all data (via Download mockdefinitions or Export Mock to Server) before exiting, otherwise it will be lost.**
 
-It's very easy to get started; just [download the Docker Engine for Linux, Mac, and Windows](https://hub.docker.com/?overlay=onboarding):
+It's very easy to get started, just [download the Docker Engine for Linux, Mac, and Windows](https://hub.docker.com/?overlay=onboarding):
 
 ## Using Docker
 
@@ -54,7 +54,6 @@ macOS:
 - the [macOS .NET 5.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-5.0.407-macos-x64-installer).
 - the [macOS npm and the NodeJS package manager](https://nodejs.org/en/download/).
 - the Git [installer for macOS](https://git-scm.com/download/mac).
-
 
 ## Clone
 
