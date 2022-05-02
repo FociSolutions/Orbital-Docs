@@ -1,56 +1,60 @@
 # main links
 main:
-  - title: "About Us"
-    url: "/docs/about-us"
-  - title: "Documentation"
-    url: "/docs/quick-start-guide"
-  - title: "GitHub"
-    url: "https://github.com/FociSolutions/Orbital"
+  - title: About Us
+    url: /docs/about-us
+  - title: Documentation
+    url: /docs/quick-start-guide
+  - title: GitHub
+    url: https://github.com/FociSolutions/Orbital
 
 docs:
   - title: Getting Started
     children:
-      - title: "Quick-Start Guide"
+      - title: Quick-Start Guide
         url: /docs/quick-start-guide
-      - title: "Installation"
+      - title: Installation
         url: /docs/installation
-  - title: "Orbital request match rules"
+  - title: Orbital Scenarios
     children:
-      - title: "Header Rules"
-        url: /docs/header-rules
-      - title: "Query Rules"
-        url: /docs/query-rules
-      - title: "URL Rules"
-        url: /docs/url-rules
-      - title: "Body Rules"
-        url: /docs/body-rules
-      - title: "Policies"
+      - title: Overview
+        url: /docs/scenarios
+      - title: Policies
         url: /docs/policies
-  - title: "Orbital response types"
+  - title: Orbital request match rules
     children:
-      - title: "Templated Responses"
+      - title: Header Rules
+        url: /docs/header-rules
+      - title: Query Rules
+        url: /docs/query-rules
+      - title: URL Rules
+        url: /docs/url-rules
+      - title: Body Rules
+        url: /docs/body-rules
+  - title: Orbital response types
+    children:
+      - title: Templated Responses
         url: /docs/templated-responses
-  - title: "mockdefinition"
+  - title: mockdefinition
     children:
-      - title: "What is a mockdefinition?"
+      - title: What is a mockdefinition?
         url: /docs/mockdefinition
   - title: Architecture
     children:
-      - title: "Orbital Client"
+      - title: Orbital Client
         url: /docs/architecture/designer
-      - title: "Orbital Server"
+      - title: Orbital Server
         url: /docs/architecture/server
-  - title: "Code of Conduct"
+  - title: Code of Conduct
     url: /docs/code-of-conduct
-  - title: "License"
+  - title: License
     url: /docs/license
-  - title: "Contributing"
+  - title: Contributing
     url: /docs/contributing
-  - title: "Style Guide"
+  - title: Style Guide
     children:
-      - title: "Orbital Designer"
+      - title: Orbital Designer
         url: /docs/designer-style-guide
-      - title: "Orbital Server"
+      - title: Orbital Server
         url: /docs/server-style-guide
   - title: About Us
     url: /docs/about-us
