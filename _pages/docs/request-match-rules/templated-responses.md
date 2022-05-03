@@ -12,15 +12,15 @@ Templated responses allow responses to be dynamically created from the response'
 ### How do I add a templated response?
 
 1. In the designer, create a new scenario or select an existing one.
-2. Open the response tab.
-3. Set the type of the response to "Templated".
+2. Select the "Response" tab.
+3. Under "Response Metadata", set the type of the response to "Templated".
 4. As an example, set the body of the response to "\{\{rant.reviews\}\}".
 5. Save the scenario, and upload it to the server.
 6. Make request to the endpoint that contains the templated response.
 
-![Templated Response](../../../assets/images/request-match-rules/add-templated-response.png)
+![Templated Response](../../../assets/images/request-match-rules/add-templated-response-updated-v2.png)
 
-Figure 1. Adding a new templated rule. Note the checkmark next to "Templated".
+Figure 1. Adding a new templated rule.
 
 ### How do I make a templated response?
 
