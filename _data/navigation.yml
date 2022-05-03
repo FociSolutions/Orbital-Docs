@@ -36,11 +36,11 @@ docs:
         url: /docs/templated-responses
   - title: mockdefinition
     children:
-      - title: What is a mockdefinition?
+      - title: What is a mock definition?
         url: /docs/mockdefinition
   - title: Architecture
     children:
-      - title: Orbital Client
+      - title: Orbital Designer
         url: /docs/architecture/designer
       - title: Orbital Server
         url: /docs/architecture/server
