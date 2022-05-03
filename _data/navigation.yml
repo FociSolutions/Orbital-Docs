@@ -36,7 +36,7 @@ docs:
         url: /docs/templated-responses
   - title: mockdefinition
     children:
-      - title: What is a mock definition?
+      - title: What is a mockdefinition?
         url: /docs/mockdefinition
   - title: Architecture
     children:
