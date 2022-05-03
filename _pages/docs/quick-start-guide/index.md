@@ -39,4 +39,4 @@ This quick-start guide will show how to make a simple pet store which returns a 
 
 Congratulations! You have created your very first Orbital Mock. Feel free to edit the example or use a different OpenAPI spec to match different types of requests.
 
-If you want to learn more about scenarios, [policies](/docs/policies), or different rule matching with [header rules](./header-rules), [query rules](./query-rules), [URL rules](./url-rules) and [body rules](./body-rules).
+If you want to learn more about [scenarios](/docs/scenarios), [policies](/docs/policies), or different rule matching with [header rules](./header-rules), [query rules](./query-rules), [URL rules](./url-rules) and [body rules](./body-rules).
