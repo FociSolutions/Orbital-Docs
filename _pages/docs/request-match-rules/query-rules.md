@@ -39,9 +39,9 @@ Select the endpoint to add a scenario, or update an existing one. The following 
 
 ![Query Request Match - Request](../../../assets/images/request-match-rules/adding-query-match-rule.png)
 
-In "Query param match rule" scenario select a "Request" tab and chose a "Query Param Match Rules" option from the "Request Rule Type" dropdown menu.The image shows the key value pair of `Search` and `Orbital` (which will match `http://localhost:5000/?Search=Orbital`) with the rule of `Equals`. This rule will check request query parameters to ensure they have the correct key and value.
+In "Query param match rule" scenario select a "Request" tab and chose a "Query Param Match Rules" option from the "Request Rule Type" dropdown menu. The image shows the key value pair of `Search` and `Orbital` (which will match `http://localhost:5000/?Search=Orbital`) with the rule of `Equals`. This rule will check request query parameters to ensure they have the correct key and value.
 
-Once a key and a value of the request have been added, you will need to add a response. Select "Response" tab. The response includes the status code, an optional header and the body of the response. The following image shows which response to use:
+Once a key and a value of the request have been added, you will need to add a response. Select "Response" tab. The response includes the response type (by default Custom), status code (by default - 200), an optional header and the body of the response. The following image shows which response to use:
 
 ![Query Request Match - Response](../../../assets/images/request-match-rules/adding-query-match-rule-response.png)
 
