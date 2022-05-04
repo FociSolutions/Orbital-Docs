@@ -17,9 +17,8 @@ valid and invalid endpoint path URL values.
 When you add a URL match rule and response, this enables you to mock out what the response is to requests with
 these chosen URL match rules.
 
-After uploading the mockdefinition to the server using the designer, you can now generate a request with
-tools like Postman that will replicate the scenario. Setting the URL endpoint path to match the rule(s) that you
-have created and receiving back the responses mocked out earlier.
+After uploading the mockdefinition to the server using the designer, you can now generate a request using CURL commands or your favorite testing tool. Set the URL endpoint path to match the rule(s) that you
+have created and receive back the responses mocked out earlier.
 
 ### Creating a URL match rule in the Designer
 
