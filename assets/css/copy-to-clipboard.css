@@ -1,0 +1,27 @@
+.btn-copy {
+  color: #aaa;
+  font-size: 0.75rem;
+  cursor: pointer;
+  margin: 0.25rem;
+}
+
+.btn-copy i {
+  margin-right: 0.25rem;
+}
+
+.btn-copy:hover {
+  color: #555;
+}
+
+pre.highlight .btn-copy {
+  font-size: 0.625rem;
+  background-color: #aaa;
+  color: #333;
+  padding: 0.125rem 0.625rem;
+  float: right;
+  border-radius: 0.5rem;
+}
+
+pre.highlight .btn-copy:hover {
+  background-color: #dfdfdf;
+}

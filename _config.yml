@@ -32,6 +32,10 @@ title_separator: " | "
 include:
   - _pages
 
+head_scripts:
+  - /assets/js/clipboard.min.js
+  - /assets/js/copy-to-clipboard.js
+
 # Analytics
 analytics:
   provider: "google-universal" # false (default), "google", "google-universal", "custom"

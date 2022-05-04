@@ -26,6 +26,8 @@ Install [Docker Compose](https://docs.docker.com/compose/install/)
 Create a docker-compose.yml file with the following contents:
 
 ```yaml
+version: "3"
+
 services:
   designer:
     # Pull Orbital Designer
