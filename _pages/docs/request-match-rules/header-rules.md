@@ -26,7 +26,7 @@ along with their verbs, endpoint path and if there are any existing scenarios.
 
 ![Endpoint Overview](../../../assets/images/orbital-ui/endpoint-overview.png)
 
-Select the endpoint to add a scenario, or update an existing one. The following image shows a default scenario for `/pets`:
+Select the endpoint to add a scenario, or update an existing one. The following image shows a default scenario, let's add "Header match rules" scenario for for `/pets`:
 
 ![Scenario Overview](../../../assets/images/orbital-ui/scenario-overview.png)
 
@@ -34,14 +34,11 @@ Select the endpoint to add a scenario, or update an existing one. The following 
 
 ![Header Request Match - Request](../../../assets/images/request-match-rules/adding-header-match-rule.png)
 
-The image shows the key value pair of `Content-Type` and `application/json` with the rule type of `Equals`. This
-rule will check request headers to ensure they match.
+In "Header match rules" scenario select a "Request" tab and chose a "Header Match Rules" option from the "Request Rule Type" dropdown menu. The image shows the example of key value pair of `Content-Type` and `application/json` with the rule type of `Equals` for the New Scenario. This rule will check request headers to ensure they match. Click + button to add the rule.
 
-Once a key and a value of the request have been added, you will need to also add a response. The response includes
-the status code, an optional header, and the body of the response. The following image shows the response to use:
+Once a request rule have been added, you will need to also add a response. Select "Response" tab. The response includes
+the response type (by default Custom), status code (by default - 200), an optional header, and the JSON body `"body": "Response body for Header match rule"` of the response. The following image shows the example of the response:
 
 ![Header Request Match - Response](../../../assets/images/request-match-rules/adding-header-match-rule-response.png)
 
-In the response section, set the status code to `200`.
-
-Click "Save" to save the scenario and return to the Scenario Overview page.
+Clicking "Save" adds new response to scenario.
