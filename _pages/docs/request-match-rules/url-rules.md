@@ -38,7 +38,7 @@ Select the endpoint to add a scenario, or update an existing one. Once a new moc
 ![URL Request Match - Request](../../../assets/images/request-match-rules/adding-url-match-rule.png)
 
 In "URL match rules" scenario select a "Request" tab and chose a "URL Match Rules" option from the "Request Rule Type" dropdown menu. The image shows the rule value of `/pets` and the rule type of `Equals`. This
-rule will check the request URL endpoint path to ensure they have the same value.
+rule will check the request URL endpoint path to ensure they have the same value. Click + button to add the rule.
 
 Once a value and rule for the URL match rule has been added, you will need to add a response. Select "Response" tab. The response includes the response type (by default Custom), status code (by default - 200), an optional header and the JSON body `"body": "Response body for URL match rule"` of the response.
 
