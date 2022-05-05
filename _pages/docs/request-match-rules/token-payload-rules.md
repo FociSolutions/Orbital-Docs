@@ -17,14 +17,14 @@ When you add a token payload rule, it allows you to mock out the server's respon
 
 ### Creating a Token Payload Rule in the designer
 
-Once a new Mock Definition is created, you start at the Endpoint Overview page. This displays endpoints and existing scenarios, if there are any.
+When creating a new Mock Definition check the Token Validation checkbox. Once a new Mock Definition is created, you start at the Endpoint Overview page. This displays endpoints and existing scenarios, if there are any.
 
 #### Overview of the Endpoints
 
 ![Endpoint Overview](../../../assets/images/orbital-ui/endpoint-overview.png)
 
-Select the endpoint to add a scenario, or update an existing one. Once a new mockdefinition is generated, you start at the Endpoint Overview. The following image shows "Default OK Scenario", let's add an "Token Payload Match Rule" scenario for `/pets`.
+Select the endpoint to add a scenario, or update an existing one. The following image shows "Default OK Scenario" and "Invalid-Token Scenario". Select "JWT Validation" from the dropdown menu. Let's add an "Token Payload Match Rule" scenario for `/pets`.
 
-![Scenario Overview](../../../assets/images/orbital-ui/scenario-overview.png)
+![Scenario Overview](../../../assets/images/orbital-ui/scenario-overview-token.png)
 
-#### Adding a Token Payload Rulep
+#### Adding a Token Payload Rule
