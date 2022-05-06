@@ -34,7 +34,7 @@ Select the endpoint to add a scenario, or update an existing one. The following 
 
 ![Header Request Match - Request](../../../assets/images/request-match-rules/adding-header-match-rule.png)
 
-In "Header match rules" scenario select a "Request" tab and chose a "Header Match Rules" option from the "Request Rule Type" dropdown menu. The image shows the example of key value pair of `Content-Type` and `application/json` with the rule type of `Equals` for the New Scenario. This rule will check request headers to ensure they match. Click + button to add the rule.
+In "Header match rules" scenario select a "Request" tab and chose a "Header Match Rules" option from the "Request Rule Type" dropdown menu. The image shows the example of key value pair of `Content-Type` and `application/json` with the rule type of `Equals` for the scenario. This rule will check request headers to ensure they match. Click + button to add the rule.
 
 Once a request rule have been added, you will need to also add a response. Select "Response" tab. The response includes
 the response type (by default Custom), status code (by default - 200), an optional header, and the JSON body `"body": "Response body for Header match rule"` of the response. The following image shows the example of the response:
