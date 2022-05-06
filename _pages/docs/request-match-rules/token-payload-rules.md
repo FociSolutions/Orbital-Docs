@@ -23,7 +23,7 @@ When creating a new Mock Definition check the Token Validation checkbox. Once a 
 
 ![Endpoint Overview](../../../assets/images/orbital-ui/endpoint-overview.png)
 
-Select the endpoint to add a scenario, or update an existing one. The following image shows "Default OK Scenario" and "Invalid-Token Scenario" added by default when Token Validation checkbox is selected. Select "JWT Validation" from the dropdown menu. Let's add an "Token Payload Match Rule" scenario for POST `/pets` endpoint.
+Select the endpoint to add a scenario, or update an existing one. The following image shows "Default OK Scenario" and "Invalid-Token Scenario" added by default when Token Validation checkbox is selected. Select "JWT Validation" from the dropdown menu. Let's add a "Token Payload Match Rule" scenario for POST `/pets` endpoint.
 
 ![Scenario Overview](../../../assets/images/orbital-ui/scenario-overview-token.png)
 
