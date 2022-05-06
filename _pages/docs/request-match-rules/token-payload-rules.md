@@ -38,4 +38,4 @@ the response type (by default Custom), status code (by default - 200), an option
 
 ![Token Payload Match - Response](../../../assets/images/request-match-rules/adding-token-payload-match-rule-response.png)
 
-Clicking "Save" adds new response to scenario.
+Clicking "Save" adds the new response to the scenario.
